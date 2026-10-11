@@ -1,0 +1,3740 @@
+fleet-ops:
+  extension-name: Fleet-Ops
+common:
+  last-modified: Última modificação
+  online: Online
+  offline: Offline
+  refresh: Atualizar
+  loading-route: Carregando rota...
+  hover-to-load-route: Carregando pré-visualização da rota...
+  unable-to-load-route: Não foi possível carregar a pré-visualização da rota.
+  proof-of-delivery: Comprovante de Entrega
+  ad-hoc: Ad-Hoc
+  bulk-dispatch: Despacho em Massa
+  dispatch-orders: Ordens de Despacho
+  dispatch-order: Ordem de Despacho
+  assign-driver: Atribuir Motorista
+  unassign-driver: Desatribuir Motorista
+  assign-drivers: Atribuir Motoristas
+  no-driver-assigned: Nenhum motorista atribuído
+  no-vehicle-assigned: Nenhum veículo atribuído
+  details: Detalhes
+  name: Nome
+  title: Título
+  email: E-mail
+  phone: Telefone
+  internal-id: ID Interno
+  type: Tipo
+  address: Endereço
+  create-order: Criar Ordem
+  coordinates: Coordenadas
+  city: Cidade
+  country: País
+  status: Status
+  upload-new-photo: Enviar uma nova foto
+  resource-actions: Ações de {resource}
+  resource-location: Localização de {resource}
+  search-countries: Buscar Países
+  select-resource-filter-by: Selecione {resource} para filtrar por
+  table-view: Visualização em Tabela
+  grid-view: Visualização em Grade
+  calendar-view: Visualização em Calendário
+  change-layout: Alterar Layout
+  livemap: Mapa ao Vivo
+  tracking: Rastreamento
+  activity: Atividade
+  eta: ETA
+  position: Posição
+  positions: Posições
+  pos: POS
+  edit-address: Editar Endereço
+  new-address: Novo Endereço
+  select-address: Selecionar Endereço
+  save: Salvar
+  save-changes: Salvar Alterações
+  done: Concluído
+  delete: Excluir
+  overview: Visão Geral
+  notes: Observações
+  schedule: Agenda
+  optional: Opcional
+  unauthorized-access: Você não tem autorização para acessar este recurso.
+  current-job: Current Job
+  "yes": Sim
+  "no": Não
+menu:
+  operations: Operações
+  dashboard: Painel
+  radar: Radar
+  orders: Ordens
+  service-rates: Taxas de Serviço
+  scheduler: Agendador
+  order-config: Configuração de Ordem
+  resources: Recursos
+  drivers: Motoristas
+  vehicles: Veículos
+  trailers: Reboques
+  fleets: Frotas
+  vendors: Fornecedores
+  contacts: Contatos
+  places: Locais
+  fuel-reports: Relatórios de Combustível
+  fuel-transactions: Transações de Combustível
+  issues: Problemas
+  maintenance: Manutenção
+  schedules: Agendas
+  work-orders: Ordens de Serviço
+  inspection-forms: 'Formulários de inspeção'
+  inspections: 'Inspeções'
+  equipment: Equipamentos
+  parts: Peças
+  maintenance-history: Histórico de Manutenção
+  connectivity: Conectividade
+  telematics: Telemática
+  fuel-providers: Integrações de Combustível
+  devices: Dispositivos
+  sensors: Sensores
+  events: Eventos
+  tracking: Rastreamento
+  analytics: Análises
+  reports: Relatórios
+  settings: Configurações
+  navigator-app: App Navigator
+  payments: Pagamentos
+  notifications: Notificações
+  routing: Roteamento
+  map: Mapa
+  custom-fields: Campos Personalizados
+  order-board: Quadro de Pedidos
+  avatars: Avatares
+  scheduling: Agendamento
+  maintenances: Manutenções
+  orchestrator: Orquestrador
+  orchestrator-settings: Configurações do Orquestrador
+  telematics-settings: Telemática
+resource:
+  asset: Ativo
+  assets: Ativos
+  trailer: Reboque
+  trailers: Reboques
+  activity: Atividade
+  activities: Atividades
+  contact: Contato
+  contacts: Contatos
+  customer-contact: Contato do Cliente
+  customer-contacts: Contatos do Cliente
+  customer-vendor: Fornecedor do Cliente
+  customer-vendors: Fornecedores do Cliente
+  customer: Cliente
+  customers: Clientes
+  custom-entity: Entidade Personalizada
+  custom-entities: Entidades Personalizadas
+  device-event: Evento do Dispositivo
+  device-events: Eventos do Dispositivo
+  device: Dispositivo
+  devices: Dispositivos
+  driver: Motorista
+  drivers: Motoristas
+  entity: Entidade
+  entities: Entidades
+  equipment: Equipamento
+  equipments: Equipamentos
+  facilitator-contact: Contato do Facilitador
+  facilitator-contacts: Contatos do Facilitador
+  facilitator-customer: Cliente Facilitador
+  facilitator-customers: Clientes Facilitadores
+  facilitator-integrated-vendor: Fornecedor Integrado do Facilitador
+  facilitator-integrated-vendors: Fornecedores Integrados do Facilitador
+  facilitator-vendor: Fornecedor do Facilitador
+  facilitator-vendors: Fornecedores do Facilitador
+  facilitator: Facilitador
+  facilitators: Facilitadores
+  fleet-driver: Motorista da Frota
+  fleet-drivers: Motoristas da Frota
+  fleet: Frota
+  fleets: Frotas
+  fuel-report: Relatório de Combustível
+  fuel-reports: Relatórios de Combustível
+  inspection: Inspeção
+  inspections: Inspeções
+  integrated-vendor: Fornecedor Integrado
+  integrated-vendors: Fornecedores Integrados
+  issue: Problema
+  issues: Problemas
+  maintenance: Manutenção
+  maintenances: Manutenções
+  maintenance-schedule: Plano de Manutenção
+  maintenance-schedules: Planos de Manutenção
+  order-config: Configuração de Pedido
+  order-configs: Configurações de Pedido
+  order: Pedido
+  orders: Pedidos
+  part: Peça
+  parts: Peças
+  payload: Carga Útil
+  payloads: Cargas Úteis
+  place: Local
+  places: Locais
+  purchase-rate: Taxa de Compra
+  purchase-rates: Taxas de Compra
+  route: Rota
+  routes: Rotas
+  sensor: Sensor
+  sensors: Sensores
+  service-area: Área de Serviço
+  service-areas: Áreas de Serviço
+  service-quote-item: Item de Orçamento de Serviço
+  service-quote-items: Itens de Orçamento de Serviço
+  service-quote: Orçamento de Serviço
+  service-quotes: Orçamentos de Serviço
+  service-rate-fee: Taxa de Serviço
+  service-rate-fees: Taxas de Serviço
+  service-rate-parcel-fee: Taxa de Parcela de Serviço
+  service-rate-parcel-fees: Taxas de Parcela de Serviço
+  service-rate: Tarifa de Serviço
+  service-rates: Tarifas de Serviço
+  telematic: Telemática
+  telematics: Telemáticas
+  tracking-number: Número de Rastreamento
+  tracking-numbers: Números de Rastreamento
+  tracking-status: Status de Rastreamento
+  tracking-statuses: Status de Rastreamento
+  vehicle-device: Dispositivo do Veículo
+  vehicle-devices: Dispositivos do Veículo
+  vehicle: Veículo
+  vehicles: Veículos
+  vendor: Fornecedor
+  vendors: Fornecedores
+  warranty: Garantia
+  warranties: Garantias
+  waypoint: Ponto de Referência
+  waypoints: Pontos de Referência
+  work-order: Ordem de Serviço
+  work-orders: Ordens de Serviço
+  zone: Zona
+  zones: Zonas
+order-status:
+  created: Criado
+  ready: Pronto
+  dispatched: Despachado
+  started: Iniciado
+  completed: Concluído
+  canceled: Cancelado
+column:
+  target: Alvo
+  address: Endereço
+  country: País
+  created-at: Criado em
+  id: ID
+  internal-id: ID Interno
+  name: Nome
+  phone: Telefone
+  route-type: Tipo de Rota
+  status: Status
+  type: Tipo
+  updated-at: Atualizado em
+  vehicle: Veículo
+  vendor: Fornecedor
+  created: Criado
+  email: E-mail
+  title: Título
+  updated: Atualizado
+  fleet: Frota
+  license: Licença
+  active-manpower: Mão de Obra Ativa
+  manpower: Mão de Obra
+  parent-fleet: Frota Principal
+  service-area: Área de Serviço
+  task: Tarefa
+  zone: Zona
+  driver: Motorista
+  edit-fuel: Editar Combustível
+  odometer: Odômetro
+  reporter: Relator
+  view: Visualizar
+  volume: Volume
+  assignee: Responsável
+  category: Categoria
+  priority: Prioridade
+  city: Cidade
+  neighborhood: Bairro
+  postal-code: Código Postal
+  state: Estado
+  make: Marca
+  model: Modelo
+  plate-number: Número da Placa
+  year: Ano
+  website-url: URL do Site
+  created-by: Criado Por
+  customer: Cliente
+  driver-assigned: Motorista Designado
+  dropoff: Entrega
+  facilitator: Facilitador
+  items: Itens
+  payload: Carga
+  pickup: Coleta
+  scheduled-at: Agendado Para
+  tracking: Rastreamento
+  transaction: Transação
+  updated-by: Atualizado Por
+  vehicle-assigned: Veículo Designado
+  service: Serviço
+  location: Localização
+  coordinates: Coordenadas
+  current-job: Trabalho Atual
+  last-seen: Última Vez Visto
+  place: Local
+  subject: Assunto
+  summary: Resumo
+  total-cost: Custo Total
+  due-at: Vencimento
+  serial-number: Número de Série
+  manufacturer: Fabricante
+  part-number: Código da Peça
+  quantity-on-hand: Quantidade em Estoque
+  quantity: Quantidade
+  unit-cost: Custo Unitário
+  code: Código
+  interval: Intervalo
+  next-due: Próximo Vencimento
+  asset: Ativo
+  performed-by: Realizado Por
+map:
+  visibility-controls:
+    title: Controles de Visibilidade
+    hide-places: Ocultar Todos os Locais
+    show-places: Mostrar Todos os Locais
+    driver-controls: Controles do Motorista
+    driver-visibility-controls: Controles de Visibilidade do Motorista
+    show-drivers: Mostrar Todos os Motoristas
+    hide-drivers: Ocultar Todos os Motoristas
+    show-online-drivers: Mostrar Apenas Motoristas Online
+    show-offline-drivers: Mostrar Apenas Motoristas Offline
+    vehicle-controls: Controles de Veículos
+    vehicle-visibility-controls: Controles de Visibilidade de Veículos
+    hide-vehicles: Ocultar Todos os Veículos
+    show-vehicles: Mostrar Todos os Veículos
+    show-online-vehicles: Mostrar Apenas Veículos Online
+    show-offline-vehicles: Mostrar Apenas Veículos Offline
+  zones-panel:
+    title: Áreas de Serviço
+    create-service: Criar nova Área de Serviço
+    show: Mostrar todas as Áreas de Serviço
+    hide: Ocultar todas as Áreas de Serviço
+    action: Ações
+    focus: Focar
+    focus-resource: 'Focar: {resource}'
+    blur: Ocultar Área de Serviço
+    blur-resource: 'Ocultar: {resource}'
+    create-zone: Criar Zona Dentro
+    create-zone-inside: 'Criar Zona: {serviceAreaName}'
+    edit-resource-boundaries: Editar Limites de {resource}
+    edit-boundaries: 'Editar Limites: {resource}'
+  toolbar:
+    create: Criar Pedido
+    view-order: Visualizar Pedidos
+    view-service-area: Visualizar Áreas de Serviço
+    visibility: Controles de Visibilidade
+    scope: Escopo
+activity:
+  form:
+    code: Código
+    code-help-text: Insira um identificador único específico para esta atividade.
+    completes-order: Conclui Pedido
+    details: Detalhes
+    details-help-text: Forneça uma descrição detalhada da atividade para o entendimento
+      do usuário final.
+    key: Chave
+    key-help-text: '"Insira uma chave usada para tomada de decisão programática. Esta
+      chave pode representar uma ou várias atividades com o mesmo identificador. Nota:
+      Esta chave não precisa ser única."'
+    pod-method-placeholder: Selecione o Método de Comprovante de Entrega
+    require-pod: Requer Comprovante de Entrega
+    require-pod-help-text: Esta atividade requer que um comprovante seja criado antes
+      que possa ser aplicada ao pedido.
+    select-pod-method: Método de Comprovante de Entrega
+    status: Status
+    status-help-text: Especifique o status exibido para o usuário final quando esta
+      atividade for acionada.
+    logic-builder:
+      activity-logic: Lógica da Atividade
+      activity-logic-help-text: Defina condições lógicas personalizadas que determinam
+        quando uma atividade fica disponível no fluxo de trabalho. Este recurso permite
+        adaptar o fluxo com base em critérios específicos, garantindo que cada atividade
+        seja acionada apenas quando suas condições predefinidas forem atendidas.
+      activity-logic-add-logic-help-text: Crie um novo conjunto de condições que definirá
+        quando uma atividade deve ser ativada. Clique aqui para começar a elaborar
+        uma nova regra lógica.
+      activity-logic-select-logic-type-help-text: Escolha o tipo de lógica que esta
+        condição seguirá. Selecione 'Se' para uma condição direta, 'E'/'Ou' para condições
+        compostas, ou 'Não' para negar uma condição.
+      activity-logic-add-condition-help-text: Adicione um requisito específico que
+        deve ser satisfeito dentro deste conjunto lógico. Use isso para especificar
+        critérios adicionais que controlam a disponibilidade da atividade.
+      field: Campo
+      value: Valor
+      add-logic: Adicionar Lógica
+      types:
+        and: 'E lógico: Verdadeiro se todas as condições forem verdadeiras'
+        or: 'Ou lógico: Verdadeiro se pelo menos uma condição for verdadeira'
+        not: 'Não lógico: Inverte o valor de verdade da condição'
+        if: 'Lógica condicional: Executa a ação seguinte se a condição for verdadeira'
+      operators:
+        equal: Verifica se dois valores são iguais
+        not-equal: Verifica se dois valores não são iguais
+        greater-than: Verifica se um valor é maior que outro
+        less-than: Verifica se um valor é menor que outro
+        greater-than-or-equal: Verifica se um valor é maior ou igual a outro
+        less-than-or-equal: Verifica se um valor é menor ou igual a outro
+        exists: Verifica se um campo ou valor existe
+        has: Verifica se um objeto possui uma propriedade específica ou se uma coleção
+          contém um elemento específico
+        contains: Verifica se uma string contém outra string, ou se um array inclui
+          um elemento específico
+        begins-with: Verifica se uma string começa com uma substring especificada
+        ends-with: Verifica se uma string termina com uma substring especificada
+        in: Verifica se um valor está dentro de um conjunto ou intervalo dado
+        not-in: Verifica se um valor não está dentro de um conjunto ou intervalo dado
+        and: E lógico, verdadeiro se ambos os operandos forem verdadeiros
+        or: Ou lógico, verdadeiro se pelo menos um dos operandos for verdadeiro
+        not: Não lógico, inverte o valor de verdade
+    event-selector:
+      activity-events: Eventos de Atividade
+      activity-events-select-to-fire: Selecione quais eventos serão ativados quando
+        esta atividade ocorrer.
+      activity-events-select-events-info: Selecione o evento específico que deseja
+        disparar em resposta a esta atividade.
+      select-event-to-add: Selecione o evento para adicionar...
+      events:
+        order:
+          dispatched: Dispara quando um pedido é despachado com sucesso.
+          failed: Dispara quando um pedido falha devido a um erro ou exceção.
+          canceled: Dispara quando um pedido é cancelado por um usuário, motorista
+            ou processo do sistema.
+          completed: Dispara quando um pedido é concluído por um motorista ou processo
+            do sistema.
+contact:
+  fields:
+    contact-details: Detalhes de Contato
+    upload-new-photo: Enviar Nova Foto
+customer:
+  fields:
+    addresses: Endereços
+    no-addresses: Este cliente não tem endereços salvos.
+    primary-address: Principal
+    customer-details: Detalhes do Cliente
+    select-address: Selecionar Endereço
+    new-address: Novo Endereço
+    select-user: Selecionar Usuário
+    send-welcome-email: Enviar e-mail de boas-vindas do portal do cliente
+    send-welcome-email-help-text: Gera uma senha temporária e envia a este cliente, por
+      e-mail, um link para entrar no portal do cliente.
+    upload-new-photo: Enviar Nova Foto
+    user-account: Conta de Usuário
+    user-account-help-text: Cada perfil de cliente precisa estar conectado a uma conta
+      de usuário específica. Essa associação é essencial para gerenciar o processo
+      de autenticação, garantindo que cada cliente possa acessar e gerenciar seu perfil
+      e outros serviços com segurança.
+custom-entity:
+  fields:
+    description: Descrição
+    details: Detalhes
+    entity-image: Imagem da Entidade
+    height: Altura
+    height-text: Texto da Altura
+    length: Comprimento
+    length-text: Texto do Comprimento
+    measurements: Medidas
+    name: Nome
+    type: Tipo
+    weight: Peso
+    weight-text: Texto do Peso
+    width: Largura
+    width-text: Texto da Largura
+driver:
+  fields:
+    avatar: Avatar
+    driver-details: Detalhes do Motorista
+    select-user: Selecionar Usuário
+    select-vehicle: Selecionar Veículo
+    upload-new-photo: Enviar nova foto
+    user-account: Conta de Usuário
+    user-account-help-text: Cada perfil de motorista precisa estar conectado a uma
+      conta de usuário específica. Essa associação é essencial para gerenciar o processo
+      de autenticação, garantindo que cada motorista possa acessar e gerenciar seu
+      perfil com segurança.
+    vendor: Fornecedor
+    select-vendor: Selecionar Fornecedor
+    driver-license: Carteira de Motorista
+    license-expiry: Validade da CNH
+    no-vehicle-assigned: Nenhum Veículo Atribuído
+  actions:
+    unassign-orders: Desatribuir Pedidos
+    unassign-vehicle: Desatribuir Veículo
+    create-issue: Criar Problema
+    assign-order: Atribuir Pedido ao Motorista
+    assign-vehicle: Atribuir Veículo ao Motorista
+    locate-driver: Localizar Motorista no Mapa
+  prompts:
+    assign-order-success: Pedido atribuído a {driverName}.
+    assign-order-title: Atribuir pedido a {driverName}
+    select-order-warning: Selecione um pedido para atribuir.
+    assign-vehicle-title: Atribuir veículo a {driverName}
+    assign-vehicle-success: Veículo atribuído a {driverName}.
+    select-vehicle-warning: Selecione um veículo para atribuir.
+    no-assigned-orders-warning: Nenhum pedido atribuído encontrado para {driverName}.
+    select-orders-warning: Selecione pelo menos um pedido para desatribuir.
+    unassign-orders-title: Desatribuir pedidos de {driverName}
+    confirm-unassign-orders-title: Desatribuir {count} pedido(s) de {driverName}?
+    confirm-unassign-orders-body: 'Isso removerá {driverName} destes pedidos: {orders}.'
+    unassign-orders-success: '{driverName} desatribuído de {count} pedido(s).'
+    no-vehicle-assigned-warning: Nenhum veículo está atribuído a {driverName}.
+    unassign-vehicle-title: Desatribuir {vehicleName} de {driverName}?
+    unassign-vehicle-body: Isso remove {driverName} de {vehicleName}. As atribuições de
+      pedidos não são alteradas.
+    unassign-vehicle-success: '{vehicleName} desatribuído de {driverName}.'
+    issue-title: Problema relatado para {driverName}
+profile-account:
+  staff-linked-helper: Vinculado a uma conta de membro da equipe — gerencie e-mail
+    e telefone pelo IAM.
+  will-link-to-staff: Será vinculado ao membro da equipe existente {name}.
+  actions:
+    reset-password: Redefinir Senha
+    send-credentials: Enviar Credenciais
+    deactivate-login: Desativar Login
+    reactivate-login: Reativar Login
+    convert-to-vendor: Converter em Fornecedor
+  prompts:
+    send-credentials-title: Enviar Credenciais de Login
+    send-credentials-body: Gerar uma nova senha temporária e enviar a {name} suas
+      credenciais de login.
+    send-credentials-success: Credenciais de login enviadas para {name}.
+    deactivate-login-body: Desativar o login de {name}. O perfil e o histórico serão
+      preservados.
+    deactivate-login-success: Login desativado para {name}.
+    reactivate-login-body: Reativar o login de {name}.
+    reactivate-login-success: Login reativado para {name}.
+    send-portal-credentials-title: Enviar Credenciais do Portal
+    send-portal-credentials-body: Gerar uma nova senha temporária e enviar a este
+      contato, por e-mail, suas credenciais do portal.
+    send-portal-credentials-success: Credenciais do portal enviadas.
+    deactivate-portal-login-body: Desativar o acesso ao portal para este contato.
+      O perfil e o histórico serão preservados.
+    deactivate-portal-login-success: Login do portal desativado.
+    reactivate-portal-login-body: Reativar o acesso ao portal para este contato.
+    reactivate-portal-login-success: Login do portal reativado.
+    reset-password-title: Redefinir Credenciais de Login
+    reset-password-heading: Você está prestes a redefinir a senha de {name}
+    reset-password-body: Digite a nova senha e confirme-a abaixo. Opcionalmente, você
+      pode enviar as novas credenciais marcando a caixa de seleção.
+    reset-password-accept: Redefinir Credenciais
+    reset-password-success: Senha redefinida.
+    new-password: Nova Senha
+    confirm-new-password: Confirmar Nova Senha
+    send-new-credentials: Enviar as novas credenciais para esta conta
+device:
+  attachment:
+    title: Ativo conectado
+    description: Contexto da frota para a telemetria deste dispositivo.
+    open: Abrir ativo
+    asset: Ativo conectado
+    synced-device: Dispositivo sincronizado
+    asset-type: Tipo de ativo
+    select-asset-type: Selecione um tipo de ativo
+    locate: Localizar
+    change: Alterar ativo
+    detach: Desconectar
+    attached-device: Dispositivo conectado
+    last-seen: Último sinal do dispositivo
+    none-title: Nenhum ativo conectado
+    none-message: Conecte este dispositivo a um veículo ou reboque para fornecer contexto à telemetria.
+    latest-positions: Posições recentes
+    positions-description: Coordenadas recentes do ativo recebidas por este dispositivo.
+    full-history: Histórico completo
+    no-positions: Sem posições recentes
+    no-positions-message: Este ativo ainda não possui histórico de posições recente.
+    attach-or-change: Conectar ou alterar ativo
+    view-attached: Ver ativo conectado
+    locate-attached: Localizar ativo conectado no mapa
+    unknown: Ativo desconhecido
+  fields:
+    title: Detalhes do Dispositivo
+    device-name: Nome do Dispositivo
+    device-name-placeholder: Nome do Dispositivo
+    device-type: Tipo de Dispositivo
+    device-type-placeholder: Selecione o Tipo de Dispositivo
+    device-id: ID do Dispositivo
+    device-id-placeholder: ID do Dispositivo
+    device-provider: Fornecedor do Dispositivo
+    device-provider-placeholder: Fornecedor do Dispositivo
+    device-model: Modelo do Dispositivo
+    device-model-placeholder: Modelo do Dispositivo
+    manufacturer: Fabricante
+    manufacturer-placeholder: Fabricante
+    serial-number: Número de Série
+    serial-number-placeholder: Número de Série
+    device-location: Localização do Dispositivo
+    device-location-placeholder: Localização do Dispositivo
+    installation-date: Data de Instalação
+    installation-date-placeholder: Selecione a Data de Instalação
+    last-maintenance-date: Data da Última Manutenção
+    last-maintenance-date-placeholder: Selecione a Data da Última Manutenção
+    data-frequency: Frequência dos Dados
+    data-frequency-placeholder: Frequência dos Dados
+    status: Status
+    status-placeholder: Selecione o Status
+    telematic: Telemática
+    telematic-placeholder: Selecione a Telemática
+    warranty: Garantia
+    warranty-placeholder: Selecione a Garantia
+    notes: Notas
+    notes-placeholder: Observações
+  actions:
+    attach-device: Vincular Dispositivo
+    attach-to-vehicle: Vincular ao Veículo
+    detach-from-vehicle: Desvincular do Veículo
+    attach-to-asset: Conectar ao ativo
+  prompts:
+    manager-description: "Dispositivos telemáticos instalados neste {resourceType}. Vincule um dispositivo para começar a receber posições e eventos."
+    no-devices-attached-title: Nenhum Dispositivo Vinculado
+    no-devices-attached-body: Clique em Vincular Dispositivo acima para começar a receber
+      dados de telemática deste {resourceType}.
+    attach-to-vehicle-title: Vincular dispositivo ao veículo
+    attach-device-to-vehicle-title: Vincular {deviceName} ao veículo
+    select-vehicle-warning: Selecione um veículo para vincular este dispositivo.
+    attach-to-vehicle-success: Dispositivo vinculado ao veículo.
+    not-attached-warning: '{deviceName} não está vinculado a um veículo.'
+    detach-from-vehicle-title: Desvincular {deviceName} do veículo?
+    detach-from-vehicle-body: Isso desvincula {deviceName} de {vehicleName} e interrompe
+      as atualizações de telemetria do veículo até que seja vinculado novamente.
+    detach-from-vehicle-success: Dispositivo desvinculado do veículo.
+    select-device-to-attach-title: Selecione o dispositivo para vincular a {resourceName}
+    confirm-attach-device: Confirmar e Vincular Dispositivo
+    attach-device-success: Dispositivo vinculado com sucesso.
+    detach-from-resource-title: Desvincular {deviceName} de {resourceName}?
+    detach-from-resource-body: Isso desvincula {deviceName} de {resourceName} e interrompe
+      as atualizações de telemetria e os eventos deste {resourceType}.
+    detach-from-resource-success: '{deviceName} desvinculado de {resourceName}.'
+    detach-telematic-device-title: Desvincular {deviceName} do veículo?
+    detach-telematic-device-body: '{deviceName} continuará sincronizado com o provedor,
+      mas não estará mais associado a um veículo.'
+    attach-to-asset-title: Conectar dispositivo ao ativo
+    select-asset-warning: Selecione um veículo ou reboque.
+    attach-to-asset-success: Dispositivo conectado ao ativo.
+    detach-from-asset-title: "Desconectar {deviceName} do ativo?"
+    detach-from-asset-body: "Isso desconecta {deviceName} de {assetName} e interrompe as atualizações telemáticas até uma nova conexão."
+    detach-from-asset-success: Dispositivo desconectado do ativo.
+entity:
+  fields:
+    declare: Declarar
+    declare-text: Texto de Declaração
+    description: Descrição
+    description-text: Texto da Descrição
+    height: Altura
+    height-text: Texto da Altura
+    id-text: Texto do ID
+    length: Comprimento
+    length-text: Texto do Comprimento
+    measurement-title: Título da Medição
+    name-text: Texto do Nome
+    price: Preço
+    price-text: Texto do Preço
+    price-title: Título do Preço
+    sale-price: Preço de Venda
+    sale-price-text: Texto do Preço de Venda
+    sku: SKU
+    sku-text: Texto do SKU
+    weight: Peso
+    weight-text: Texto do Peso
+    width: Largura
+    width-text: Texto da Largura
+fleet:
+  fields:
+    fleet-details: Detalhes da Frota
+    fleet-name: Nome da Frota
+    parent-fleet: Frota Principal
+    select-parent-fleet: Selecione a frota principal para atribuir a frota
+    select-service: Selecione a área de serviço para atribuir a frota
+    select-status: Selecione o status
+    select-status-fleet: Selecione o status da frota.
+    select-vendor: Selecione o fornecedor para atribuir a frota
+    select-zone: Selecione a zona para atribuir a frota
+    service-title: Atribuir à Área de Serviço
+    task-mission-title: Tarefa/ Missão
+    task-text: Forneça uma descrição da tarefa ou missão principal desta frota, se
+      aplicável.
+    zone-title: Atribuir à Zona
+    active-manpower: Mão de Obra Ativa
+    task: Tarefa
+  driver-listing:
+    search-driver: Pesquisar motoristas na frota
+    add-driver: Adicionar motorista à frota
+    loading-message: Carregando motoristas da frota...
+  vehicle-listing:
+    search-vehicle: Pesquisar veículo na frota
+    add-vehicle: Adicionar veículo à frota
+    loading-message: Carregando veículo da frota...
+  actions:
+    assign-vehicle: Atribuir Veículo à Frota
+    assign-driver: Atribuir Motorista à Frota
+  prompts:
+    assign-driver-title: Atribuir motorista a {fleetName}
+    assign-vehicle-title: Atribuir veículo a {fleetName}
+    select-driver-warning: Selecione um motorista para atribuir.
+    select-vehicle-warning: Selecione um veículo para atribuir.
+    assign-driver-success: Motorista atribuído a {fleetName}.
+    assign-vehicle-success: Veículo atribuído a {fleetName}.
+fuel-report:
+  fields:
+    details: Detalhes do Relatório de Combustível
+    reporter: Reportante
+    select-reporter: Selecionar Reportante
+    fuel-cost: Custo do Combustível
+    odometer: Odômetro
+    select-volume-help-text: Selecione a unidade métrica e o volume de combustível
+      para relatar.
+    fuel-volume: Combustível/ Volume
+issue:
+  fields:
+    title: Título
+    add-tags: Adicionar tags
+    assigned-to: Atribuído a
+    category: Categoria do Problema
+    issue-report: Relatório de Problema
+    priority: Prioridade do Problema
+    report: Relatório de Problema
+    reported-by: Reportado Por
+    select-assign: Selecionar Responsável
+    select-category: Selecionar categoria do problema
+    select-priority: Selecionar prioridade do problema
+    select-reporter: Selecionar Reportante
+    select-status: Selecionar status do problema
+    select-type: Selecionar tipo de problema
+    tags: Tags do Problema
+    type: Tipo de Problema
+order:
+  placeholders:
+    filter-internal-id: Digite ou escaneie IDs internos
+  card:
+    linked-order: Pedido Vinculado
+    unknown-order: Pedido desconhecido
+    no-type: Sem tipo
+    pickup: Coleta
+    dropoff: Entrega
+    return: Devolução
+    waypoints: Pontos de Referência
+    additional-stop: parada adicional
+    additional-stops: paradas adicionais
+    no-pickup-address: Sem endereço de coleta
+    no-dropoff-address: Sem endereço de entrega
+    no-route-details: Nenhum detalhe de rota disponível.
+    no-order-linked: Nenhum pedido está vinculado a este problema.
+  fields:
+    ad-hoc: Avulso
+    ad-hoc-help-text: Alternar Ad-Hoc permitirá que o pedido envie notificações inteligentes
+      para motoristas na proximidade do local de retirada, permitindo que o primeiro
+      motorista disponível aceite o pedido. Esta é uma alternativa para atribuir manualmente
+      o motorista para pedidos em tempo real.
+    add-entity: Adicionar Entidade
+    add-item-button: Adicionar Item
+    add-item-order: Adicionar Item ao Pedido
+    add-waypoint: Adicionar Ponto de Parada
+    add-waypoint-help-text: Use o botão `Adicionar Ponto de Parada` para adicionar
+      mais paradas para este pedido. O motor de roteamento da Fleetbase otimizará
+      automaticamente a rota conforme cada parada for adicionada ou removida.
+    adhoc-ping: Distância de Ping Ad-Hoc
+    adhoc-ping-help-text: Esta configuração determina a distância de ping ad-hoc para
+      este pedido, se não definida, usará a configuração padrão.
+    adhoc-ping-message: A distância deve estar em metros
+    apply-service-rate: Aplicar taxa de serviço
+    assign-driver: Atribuir Motorista
+    assign-driver-help-text: Atribua o motorista para o qual este pedido será despachado.
+    assign-driver-placeholder: Selecionar Motorista
+    assign-vehicle: Atribuir Veículo
+    assign-vehicle-help-text: Atribua o veículo com o qual este pedido será realizado.
+    assign-vehicle-placeholder: Selecionar Veículo
+    breakdown: Detalhamento
+    customer: Cliente
+    customer-help-text: Opcionalmente, atribua o cliente deste pedido. Se for um cliente
+      novo, use o botão 'Novo Cliente' acima.
+    customer-placeholder: Selecionar Cliente
+    dispatch: Despacho
+    dispatch-help-text: Alternar despacho enviará este pedido imediatamente após a
+      criação.
+    documents-panel-title: Documentos & Arquivos
+    dropoff: Entrega
+    edit-address: Editar Endereço
+    edit-item: Editar Item
+    facilitator: Facilitador
+    facilitator-help-text: Opcionalmente, atribua um facilitador para este pedido,
+      que pode ser um subcontratado ou serviço terceirizado que facilitará o transporte
+      deste pedido.
+    facilitator-placeholder: Selecionar Facilitador
+    info-text: Selecione uma cotação de serviço em tempo real para aplicar a este
+      pedido. Uma vez aplicada, a cotação se tornará uma tarifa comprada. As transações
+      serão registradas no livro contábil da Fleetbase.
+    internal-id: ID Interno
+    internal-id-help-text: Use este campo para definir opcionalmente um identificador
+      personalizado ou interno para o pedido.
+    invalid-coordinates: Coordenadas inválidas!
+    items-drop: Itens entregues em
+    loading-message: Carregando cotações de serviço...
+    updating-service-quotes-message: Atualizando cotações de serviço...
+    notes-placeholder: Digite as observações do pedido aqui...
+    notes-title: Notas
+    optimize-route: Otimizar Rota
+    optimize-route-help-text: A Fleetbase otimizará automaticamente a rota.
+    order-type: Tipo de Pedido
+    order-type-help-text: Selecionar o tipo de pedido informará à Fleetbase quais
+      configurações de pedido usar.
+    order-type-placeholder: Selecionar Tipo de Pedido
+    payload-entities: Carga / Entidades
+    pickup: Retirada
+    proof-delivery: Comprovante de Entrega
+    proof-delivery-help-text: Selecione o tipo de comprovante de entrega a ser exigido.
+      Pode ser código QR para escaneamento ou método de assinatura.
+    proof-delivery-placeholder: Selecionar Método de Comprovante de Entrega
+    refresh-button: Atualizar
+    require-proof: Exigir Comprovante de Entrega
+    require-proof-help-text: Alternar isso exigirá que o motorista complete um comprovante
+      de entrega.
+    return: Retorno
+    route: Rota
+    route-error: Falha na otimização da rota, verifique a entrada da rota e tente
+      novamente.
+    route-label: Múltiplas Entregas
+    schedule: Agendamento
+    schedule-help-text: A data e hora em que o pedido será despachado. Se nenhum motorista
+      estiver designado no momento do despacho, o despacho falhará. Se o pedido for
+      Ad-Hoc, ele será enviado para motoristas nas proximidades do local de retirada.
+    select-destination: Selecionar Destino
+    select-dropoff: Selecionar Entrega
+    select-pickup: Selecionar Retirada
+    select-return: Selecionar Retorno
+    select-waypoint: Selecionar Ponto de Passagem
+    service: Serviço
+    select-service-rate: Selecionar Tarifa de Serviço
+    service-help-text: Selecione uma tarifa de serviço definida para gerar cotações
+      de serviço em tempo real a serem aplicadas a este pedido.
+    service-quotes-help-text: Selecione qual tarifa de serviço buscar cotações.
+    service-type: Tipo de Serviço
+    service-type-placeholder: Selecione o Tipo de Serviço
+    sku: SKU
+    activity: Atividade
+    comments-title: Comentários
+    date-dispatched: Data de Despacho
+    date-scheduled: Data Agendada
+    date-started: Data de Início
+    driver: Motorista
+    driver-assigned: Motorista Designado
+    no-driver-assigned: Nenhum Motorista Designado
+    get-label: Obter Etiqueta
+    order-notes-updated: Notas do pedido atualizadas.
+    payload: Carga
+    proof-of-delivery: Comprovante de Entrega
+    purchase-rate-panel-title: Tarifa de Compra
+    route-panel-title: Rota
+    save-order-note: Salvar Nota do Pedido
+    tracking: Rastreamento
+    tracking-number: Número de Rastreamento
+    vehicle-assigned: Veículo Designado
+    view-activity: Ver Atividade
+    no-order-activity: Nenhuma atividade no pedido
+    waypoint-actions: Ações do Ponto de Passagem
+    documents-files: Documentos e Arquivos
+    order-metadata: Metadados do Pedido
+    order-label: Etiqueta do Pedido
+    waypoint-label: Etiqueta do Ponto de Passagem
+    entity-label: Etiqueta da Entidade
+    current-eta: ETA Atual
+    ect: ECT
+    current-destination: Destino Atual
+    no-service-quotes: Nenhuma cotação de serviço.
+    input-order-routes: Informe a rota do pedido para ver as cotações de serviço.
+    service-quote-info: Selecione uma cotação de serviço em tempo real para aplicar a
+      este pedido. Depois de aplicada ao pedido, a cotação se torna uma tarifa contratada.
+      As transações serão registradas no ledger do Fleetbase.
+  prompts:
+    update-details-success: Detalhes do pedido {orderId} foram atualizados.
+    route-error: Falha na otimização da rota, verifique a entrada da rota e tente
+      novamente.
+    route-update-success: Detalhes da rota do pedido {orderId} atualizados.
+    unassign-driver-title: Tem certeza de que deseja desassociar o motorista ({driverName})
+      deste pedido?
+    unassign-driver-body: Uma vez que o motorista for desassociado, ele não terá mais
+      acesso aos detalhes deste pedido.
+    unassign-driver-success: O motorista foi desvinculado deste pedido.
+    no-driver-assigned-error: Nenhum motorista atribuído a este pedido.
+    failed-to-load-order-label: Falha ao carregar o rótulo do pedido.
+    failed-to-load-waypoint-label: Falha ao carregar o rótulo do ponto de passagem.
+    failed-to-load-entity-label: Falha ao carregar o rótulo da entidade.
+    unable-to-add-entity: Não foi possível adicionar nova entidade ao pedido.
+    assign-driver-success: O motorista ({driverName}) foi atribuído ao pedido {orderId}.
+    cancel-title: Tem certeza de que deseja cancelar este pedido?
+    cancel-body: Uma vez cancelado, o registro do pedido ainda estará visível, mas
+      não será possível adicionar atividades a este pedido.
+    cancel-success: O pedido {orderId} foi cancelado.
+    dispatch-title: Tem certeza de que deseja despachar este pedido?
+    dispatch-body: Uma vez despachado, o motorista atribuído será notificado.
+    dispatch-success: O pedido {orderId} foi despachado.
+    order-bulk-search: Insira IDs de pedidos ou números de rastreamento separados
+      por vírgula para realizar uma busca em massa
+  actions:
+    create-new-customer: Criar Novo Cliente
+    create-new-facilitator: Criar Novo Facilitador
+    create-new-place: Criar Novo Local
+    change-driver: Alterar Motorista
+    assign-driver: Atribuir Motorista
+    update-activity: Atualizar Atividade
+    reload-activity: Recarregar Atividade
+    view-activity-as-timeline: Visualizar como Linha do Tempo
+    view-activity-as-list: Visualizar como Lista
+    cancel-order: Cancelar Pedido
+    dispatch-order: Despachar Pedido
+    dispatch-orders: Despachar Pedidos
+    assign-driver-to-orders: Atribuir Motorista aos Pedidos
+    edit-order-details: Editar Detalhes do Pedido
+    edit-order-route: Editar Rota do Pedido
+    edit-order-metadata: Editar Metadados do Pedido
+    update-order-activity: Atualizar Atividade do Pedido
+    submit-new-activity: Enviar Nova Atividade
+    add-entity: Adicionar Entidade
+    unassign-driver-name: 'Desvincular Motorista: {driverName}'
+  schedule-card:
+    destination: Destino
+    unassign-driver: Desvincular Motorista?
+    unassign-text: Você está prestes a desvincular o motorista do Pedido {orderId}.
+      Clique em continuar para confirmar a remoção do motorista.
+    unassign-button: Continuar e desvincular motorista
+    assign-driver: Atribuir Novo Motorista?
+    assign-text: Você está prestes a atribuir um novo motorista ({driverName}) ao
+      Pedido {orderId}. Clique em continuar para confirmar o motorista.
+    assign-button: Continuar e atribuir motorista
+    date: Data agendada
+    date-created: Data de criação
+    driver-assigned: Motorista
+    vehicle-assigned: Veículo
+    no-driver: Sem Motorista
+    no-vehicle: Sem Veículo
+    select-driver: Selecionar Motorista
+    select-vehicle: Selecionar Veículo
+  kanban:
+    status-updated: Atividade do pedido atualizada para o status {status}.
+    cannot-update-status: Não foi possível mover o pedido para o status {status}.
+order-config-manager:
+  title: Configuração de Pedidos
+  message: As configurações de pedido permitem que você defina configurações dinâmicas
+    que indicarão ao Fleetbase como diferentes tipos de pedidos devem ser executados.
+  configuration: Configuração
+  new-order-config: Nova Configuração de Pedido
+  select-order-config: Selecionar Configuração de Pedido
+  create-new-title: Criar uma nova configuração de pedido
+  create-warning-message: A configuração de pedido requer um nome
+  create-success-message: Nova configuração de pedido criada com sucesso.
+  no-order-config-selected: Nenhuma configuração de pedido selecionada.
+  saved-success-message: Configuração {orderConfigName} salva.
+  cloned-success-message: Configuração de pedido clonada com sucesso.
+  enter-clone-name: Digite o nome da configuração clonada
+  no-config-name-warning-message: Nenhum nome de configuração inserido.
+  delete-warning-message: Uma vez que esta configuração de pedido for excluída, você
+    não poderá mais criar pedidos usando-a. Tem certeza?
+  uninstall-order-config: Desinstalar Configuração
+  uninstall-order-config-success-message: Extensão {extensionName} desinstalada.
+  select-order-config-to-start: Selecione ou crie uma configuração de pedido para
+    começar.
+  tabs:
+    details: Detalhes
+    custom-fields: Campos Personalizados
+    activity-flow: Fluxo de Atividades
+    entities: Entidades
+  details:
+    details: Detalhes
+    name: Nome
+    description: Descrição
+    tags: Tags
+    add-tags: Adicionar Tags
+    key: Chave
+    version: Versão
+    namespace: Namespace
+    controls: Controles
+    delete-config: Excluir Configuração
+    delete:
+      delete-title: Excluir esta configuração de pedido?
+      delete-body-message: Uma vez que esta configuração de pedido for excluída, ela
+        não poderá ser recuperada e você perderá todas as configurações.
+      confirm-delete: Excluir
+  activity-flow:
+    save-activity-flow: Salvar Fluxo de Atividades
+    edit-activity-unique-code-warning: O código da atividade deve ser único!
+  custom-fields:
+    new-field-group: Novo grupo de campos
+    new-custom-field: Criar novo campo personalizado
+    grid-size: Tamanho da Grade
+    delete-custom-field-prompt:
+      modal-title: Excluir este campo personalizado?
+      delete-body-message: Uma vez que este campo personalizado for excluído, ele
+        não poderá ser recuperado e você perderá todas as configurações.
+      confirm-delete: Excluir
+    delete-custom-field-group-prompt:
+      modal-title: Excluir este grupo de campos?
+      delete-body-message: Uma vez que este grupo de campos for excluído, ele não
+        poderá ser recuperado e você perderá todos os campos personalizados dentro
+        dele.
+      confirm-delete: Excluir
+  entities:
+    new-custom-entity: Nova Entidade Personalizada
+    name: Nome
+    description: Descrição
+    type: Tipo
+    length: Comprimento
+    width: Largura
+    height: Altura
+    weight: Peso
+    delete-custom-entity-title: Excluir esta entidade personalizada?
+    delete-custom-entity-body: Uma vez que esta entidade personalizada for excluída,
+      ela não poderá ser recuperada e você perderá todas as configurações.
+    confirm-delete: Confirmar
+  types:
+    no-order-installed: Nenhuma configuração de pedido instalada!
+    you-have-no-configs: Você atualmente não tem configurações de pedido instaladas,
+      verifique nas extensões para instalar uma configuração de pedido para começar.
+    view-extensions: Ver extensões
+place:
+  fields:
+    details: Detalhes do Local
+    building: Prédio
+    neighborhood: Bairro
+    postal-code: Código Postal
+    security-access-code: Código de Acesso de Segurança
+    city: Cidade
+    province: Província
+    country: País
+    state: Estado
+    street-1: Rua 1
+    street-2: Rua 2
+    coordinates: Coordenadas
+    phone: Telefone
+  prompts:
+    vendor-assigned-success: Fornecedor designou {placeName} como nova localização
+      do fornecedor.
+  actions:
+    locate-place: Localizar Local no Mapa
+service-area:
+  actions:
+    edit-boundary: Editar limite no mapa
+  fields:
+    details: Detalhes da Área de Serviço
+    area-color: Cor de Preenchimento
+    area-color-help-text: Personalize a cor de preenchimento para esta área de serviço.
+    border-color: Cor da Borda
+    border-color-help-text: Personalize a cor da borda para esta área de serviço.
+    country: País
+    country-help-text: Opcionalmente defina o país onde esta Área de Serviço está
+      localizada ou baseada.
+    name: Nome
+    name-help-text: Defina um nome para exibição da área de serviço.
+    type: Tipo
+    type-help-text: Selecione a definição de tipo para esta área de serviço.
+service-rate:
+  fields:
+    details: Detalhes da Taxa de Serviço
+    terms: Termos
+    add-drop-off-button: Adicionar faixa de entrega
+    additional-fee: Taxa Adicional
+    algorithm-help-text: Defina uma fórmula para ser avaliada para este cálculo da
+      taxa de serviço.
+    algorithm-label: Algoritmo
+    algorithm-placeholder: (( '{distance}' / 50 ) * .05 ) + (( '{time}' / 60 ) * .01)
+    base-fee-help-text: Defina uma taxa base que representa o custo mínimo para este
+      serviço.
+    base-fee-label: Taxa Base
+    calculation-method-help-text: Método usado para calcular a taxa COD.
+    calculation-method-label: Método de Cálculo da Taxa COD
+    calculation-method-placeholder: Selecione o método de cálculo da taxa COD
+    cash-delivery-label: Habilitar taxa adicional para pedidos `pagamento na entrega`?
+    cash-delivery-title: Pagamento na Entrega
+    custom-algorithm-info-message: Esta opção é para definir um cálculo personalizado
+      para a taxa deste serviço com variáveis.
+    custom-algorithm-info-second-message: Observe que as variáveis devem estar entre
+      uma única chave.
+    custom-algorithm-title: Algoritmo Personalizado
+    delivery-flat-fee: Taxa Fixa para Pagamento na Entrega
+    delivery-flat-fee-help-text: Define uma taxa fixa a ser adicionada durante o horário
+      de pico.
+    deminsions-unit: Dimensão
+    distance: Distância
+    distance-continue-message: '- a distância em metros a partir da rota do pedido.'
+    distance-message: distância
+    distance-unit: Unidade de Distância
+    distance-unit-help-text: A unidade de distância pode ser por quilômetro ou metro.
+    distance-unit-placeholder: Selecione a unidade de distância.
+    duration-terms-help-text: Adicione termos adicionais de serviço relacionados à
+      duração para esta tarifa de serviço.
+    duration-terms-label: Termos de Duração
+    duration-terms-placeholder: Termos de duração, se aplicável
+    estimated-days: Dias Estimados para Entrega
+    estimated-days-help-text: O número estimado de dias que este serviço levará. Para
+      serviço no mesmo dia, use `0`.
+    example: Exemplo
+    example-message: Se a solicitação do pedido for uma distância de 2.200 metros
+      com ETA de 30 minutos.
+    example-second-message: Então a fórmula a seguir calculará uma taxa de serviço
+      de R$2,50, que será adicionada à taxa base.
+    fee: Taxa
+    fee-percentage: Percentual da Taxa para Pagamento na Entrega
+    fee-percentage-help-text: Define uma taxa percentual baseada no subtotal da tarifa
+      de serviço a ser adicionada como taxa COD.
+    fixed-meter: Opções de Metro Fixo
+    fixed-meter-example-text: 'Por exemplo: A cada 1 quilômetro é definida uma taxa
+      fixa. Se a distância percorrida pelo pedido for 3.300 metros, a taxa fixa para
+      o 3º quilômetro será adicionada à soma da taxa base.'
+    fixed-meter-text: Esta opção define uma taxa fixa por quilômetro.
+    flat-fee-help-text: Define uma taxa fixa a ser adicionada durante o horário de
+      pico.
+    flat-fee-label: Taxa Fixa para Horário de Pico
+    height-label: Altura
+    height-placeholder: Altura em {parcelFeeDimension}
+    length-label: Comprimento
+    length-placeholder: Comprimento em {parcelFeeDimension}
+    max: Máx
+    max-drop: Máx de Entregas
+    maximum-distance: Distância Máxima
+    maximum-distance-help-text: A distância máxima atendida.
+    min: Mín
+    min-drop: Mín de Entregas
+    order-type-placeholder: Placeholder do Tipo de Pedido
+    peak-hours-end-help-text: Define a que horas a taxa de horário de pico termina.
+    peak-hours-end-label: Fim do Horário de Pico
+    peak-hours-fee-help-text: Método usado para calcular a taxa do horário de pico.
+    peak-hours-fee-label: Método de Cálculo da Taxa de Horário de Pico
+    peak-hours-fee-placeholder: Selecione o método de cálculo da taxa de horário de
+      pico
+    peak-hours-label: Habilitar taxa adicional para pedidos feitos durante o `horário
+      de pico` definido no serviço?
+    peak-hours-percentage-help-text: Define uma taxa percentual baseada no subtotal
+      da tarifa de serviço a ser adicionada durante o horário de pico.
+    peak-hours-percentage-label: Percentual da Taxa para Horário de Pico
+    peak-hours-start-help-text: Define a que horas a taxa de horário de pico começa.
+    peak-hours-start-label: Início do Horário de Pico
+    peak-hours-title: Horário de Pico
+    per-drop-off-example-text: 'Por exemplo: 1-5 entregas no pedido custarão R$x,
+      5-10 entregas por pedido custarão R$x. Isso será adicionado à soma da taxa base.'
+    per-drop-off-text: Esta opção define uma taxa fixa por entregas.
+    per-drop-off-title: Opções por Entrega
+    per-meter: Por Metro
+    per-meter-example-text: 'Por exemplo: ''{fee}'' * ''{distance}'' + ''{baseFee}'''
+    per-meter-rate-fee: Taxa Fixa por Metro
+    per-meter-rate-fee-help-text: A taxa fixa única que será multiplicada pela distância.
+    per-meter-text: Esta opção permite que o serviço seja calculado por quilômetro
+      ou metro, ou seja, você define uma taxa fixa que é então multiplicada pela distância,
+      que pode ser metro ou quilômetro.
+    percel-fee-title: Taxas de Encomenda
+    percentage-placeholder: Porcentagem
+    rate-calculation-help-text: O método que este serviço usará para calcular as tarifas
+      quando consultado.
+    rate-calculation-label: Método de Cálculo da Tarifa
+    rate-calculation-placeholder: Selecione o método de cálculo da tarifa
+    restrict-service-title: Restringir Serviço
+    select-unit-placeholder: Selecione a unidade
+    select-order-type: Selecione o tipo de pedido
+    service-area-help-text: Restringir este serviço a pedidos originados de uma área
+      de serviço.
+    service-area-label: Área de Serviço
+    service-area-placeholder: Restringir à área de serviço
+    service-name: Nome do Serviço
+    service-name-help-text: Nome exibido para este serviço.
+    service-order-help-text: Selecione uma configuração de pedido à qual esta tarifa
+      de serviço será aplicada exclusivamente. Isso garante que apenas pedidos criados
+      com a configuração de pedido selecionada possam utilizar esta tarifa de serviço
+      específica.
+    service-order-label: Tipo de Pedido de Serviço
+    time-continue-message: '- o ETA da rota em segundos.'
+    time-message: tempo
+    weight-label: Peso
+    weight-unit: Unidade de Peso
+    width-label: Largura
+    width-placeholder: Largura em {parcelFeeDimension}
+    zone-help-text: Restringir este serviço a pedidos originados de uma zona específica.
+    zone-label: Zona
+    zone-placeholder: Restringir à zona
+    cod-fee-label: Etiqueta de Taxa COD
+vehicle:
+  placeholders:
+    filter-internal-id: Digite ou escaneie IDs internos
+  filters:
+    has-trailer: Reboque acoplado
+    has-driver: Tem motorista atribuído
+    has-device: Dispositivo vinculado
+    any: Qualquer
+    attached: Acoplado
+    not-attached: Não acoplado
+    assigned: Atribuído
+    not-assigned: Não atribuído
+  fields:
+    updated-at: Última atualização
+    avatar: Avatar
+    driver-assigned: Motorista Atribuído
+    make: Marca
+    model: Modelo
+    plate-number: Número da Placa
+    select-driver: Selecionar Motorista
+    upload-new-photo: Enviar Nova Foto
+    vehicle-make: Marca do Veículo
+    vehicle-model: Modelo do Veículo
+    vehicle-year: Ano do Veículo
+    vin-number: Número VIN
+    year: Ano
+  actions:
+    attach-device: Vincular Dispositivo
+    unassign-orders: Desatribuir Pedidos
+    create-issue: Criar Problema
+    locate-vehicle: Localizar Veículo no Mapa
+    schedule-maintenance: Agendar Manutenção
+    create-work-order: Criar Ordem de Serviço
+    log-maintenance: Registrar Manutenção
+    attach-trailer: Engatar reboque
+    attach-equipment: Conectar equipamento
+    detach-equipment: Desconectar equipamento
+  prompts:
+    attach-device-title: Vincular dispositivo a {vehicleName}
+    select-device-warning: Selecione um dispositivo para vincular.
+    attach-device-success: Dispositivo vinculado a {vehicleName}.
+    no-assigned-orders-warning: Nenhum pedido atribuído encontrado para {vehicleName}.
+    select-orders-warning: Selecione pelo menos um pedido para desatribuir.
+    unassign-orders-title: Desatribuir pedidos de {vehicleName}
+    confirm-unassign-orders-title: Desatribuir {count} pedido(s) de {vehicleName}?
+    confirm-unassign-orders-body: 'Isso removerá {vehicleName} destes pedidos: {orders}.'
+    unassign-orders-success: '{vehicleName} desatribuído de {count} pedido(s).'
+    issue-title: Problema relatado para {vehicleName}
+    attach-trailer-title: "Engatar um reboque a {vehicleName}"
+    select-trailer-warning: Selecione um reboque para engatar a este veículo.
+    attach-trailer-success: "{trailerName} engatado a {vehicleName}."
+  empty:
+    trailers: Nenhum reboque engatado
+    trailers-description: Engate um reboque desengatado a este veículo para iniciar um engate.
+    equipment: Nenhum equipamento conectado
+    equipment-description: Conecte equipamentos como plataformas elevatórias, ferramentas ou itens de segurança a este veículo.
+    inspections: Nenhuma inspeção registrada
+    inspections-description: As inspeções que um motorista registrar para este veículo
+      aparecerão aqui.
+  trailers:
+    description: Reboques atualmente engatados a este veículo.
+  equipment:
+    description: Equipamentos atualmente conectados a este veículo.
+vendor:
+  fields:
+    setup-vendor: Configurar Fornecedor
+    choose-vendor: Escolher fornecedor integrado
+    email-help-text: O e-mail do fornecedor, que pode ser usado para enviar e-mails
+      ao fornecedor.
+    name-help-text: O nome do fornecedor, normalmente o nome de um negócio.
+    phone-text: O telefone do fornecedor, que pode ser usado para enviar SMS ou mensagens
+      ao fornecedor.
+    website: URL do Site
+    edit-address: Editar Endereço
+    new-address: Novo Endereço
+    select-address: Selecionar Endereço
+    select-vendor-status: Selecionar status do fornecedor
+    select-vendor-type: Selecionar tipo de fornecedor
+    title: Configuração
+    vendor-details: Detalhes do Fornecedor
+    website-help-text: O site do fornecedor, opcionalmente adicione o site do fornecedor
+      para referência.
+integrated-vendor:
+  fields:
+    provider: Provedor
+    credentials: Credenciais
+    credentials-configure-help-text: Opcionalmente forneça seu próprio {param} para
+      configurar este fornecedor.
+    options: Opções
+    choose-vendor: Escolher provedor de fornecedor integrado
+    select-integrated: Selecione um provedor de fornecedor integrado.
+    advanced-options: Opções Avançadas
+    cancel-credentials: Cancelar redefinição de credenciais
+    sensitive-credentials: Credenciais sensíveis só podem ser redefinidas, para atualizar
+      as credenciais você deve inseri-las novamente.
+    reset-credentials: Clique aqui para redefinir as credenciais
+    sandbox: Sandbox
+    webhook: URL do Webhook
+    webhook-help-text: Fornecedores integrados normalmente exigirão isso para que
+      o Fleetbase possa receber atualizações de atividade no pedido. Não altere a
+      menos que saiba o que está fazendo! Alterar isso pode quebrar suas atualizações
+      de pedido!
+    host: Host Personalizado
+    host-help-text: Opcionalmente forneça um host personalizado que deve ser usado
+      para esta integração.
+    namespace: Namespace Personalizado
+    namespace-help-text: Opcionalmente forneça um namespace personalizado ou versão
+      da API que deve ser usado para a integração.
+zone:
+  actions:
+    edit-boundary: Editar limite no mapa
+  fields:
+    details: Detalhes da Zona
+    border-color: Cor da Borda
+    customize-border: Personalizar Borda
+    customize-fill-color: Personalizar Cor de Preenchimento
+    description: Descrição
+    name: Nome
+    name-help-text: Insira um nome para esta zona.
+    zone-color: Cor da Zona
+activity-logic-builder:
+  activity-logic: Lógica de Atividade
+  activity-logic-help-text: Defina condições lógicas personalizadas que determinam
+    quando uma atividade fica disponível no fluxo de trabalho. Este recurso permite
+    adaptar o fluxo com base em critérios específicos, garantindo que cada atividade
+    seja acionada apenas quando suas condições predefinidas forem atendidas.
+  activity-logic-add-logic-help-text: Crie um novo conjunto de condições que definirá
+    quando uma atividade deve ser ativada. Clique aqui para começar a criar uma nova
+    regra lógica.
+  activity-logic-select-logic-type-help-text: Escolha o tipo de lógica que esta condição
+    seguirá. Selecione 'Se' para uma condição direta, 'E'/'Ou' para condições compostas,
+    ou 'Não' para negar uma condição.
+  activity-logic-add-condition-help-text: Adicione um requisito específico que deve
+    ser satisfeito dentro deste conjunto lógico. Use isto para especificar critérios
+    adicionais que controlam a disponibilidade da atividade.
+  field: Campo
+  value: Valor
+  add-logic: Adicionar Lógica
+activity-event-selector:
+  activity-events: Eventos de Atividade
+  activity-events-select-to-fire: Selecione quais eventos serão ativados quando esta
+    atividade ocorrer.
+  activity-events-select-events-info: Selecione o evento específico que deseja disparar
+    em resposta a esta atividade.
+  select-event-to-add: Selecione o evento para adicionar...
+custom-field-form-panel:
+  meta-col-span: 'Meta: Abrangência da Coluna'
+  col-span-size: Tamanho da Abrangência da Coluna
+  custom-field-title-concat: 'Campo Personalizado: '
+  new-custom-field: Novo campo personalizado
+  close-new-custom-field: Cancelar alterações do campo personalizado
+  save-custom-field: Salvar Alterações
+  create-custom-field: Criar Novo Campo
+  field-name: Nome do Campo
+  field-label: Etiqueta do Campo
+  field-type: Tipo de Campo
+  select-field-type: Selecione o tipo de campo...
+  field-description: Descrição do Campo
+  field-help-text: Texto de Ajuda do Campo
+  field-default-value: Valor Padrão do Campo
+  field-is-required: Campo é Obrigatório
+  field-is-editable: Campo é Editável
+  field-options: Opções do Campo
+  field-validation-rules: Regras de Validação do Campo
+  field-model-type: Tipo de Modelo do Campo
+  field-select-model-type: Selecione o tipo de modelo
+  add-new-option: Adicionar nova opção
+activity-form-panel:
+  title-concat: 'Atividade: '
+  new-activity-title: Criar nova atividade
+  key: Chave
+  code: Código
+  status: Status
+  details: Detalhes
+  proof-of-delivery: Comprovante de Entrega
+  require-pod: Requer Comprovante de Entrega
+  require-pod-help-text: Esta atividade requer que um comprovante seja criado antes
+    que possa ser aplicada ao pedido.
+  select-pod-method: Método de Comprovante de Entrega
+  pod-method-placeholder: Selecione o Método de Comprovante de Entrega
+  completes-order: Conclui Pedido
+  complete: Concluir
+  key-help: 'Insira uma chave usada para tomada de decisão programática. Esta chave
+    pode representar uma ou várias atividades com o mesmo identificador. Nota: Esta
+    chave não precisa ser única.'
+  code-help: Insira um identificador único específico para esta atividade.
+  status-help: Especifique o status exibido para o usuário final quando esta atividade
+    for acionada.
+  details-help: Forneça uma descrição detalhada da atividade para o entendimento do
+    usuário final.
+custom-entity-issue-form-panel:
+  new-custom-entity: Nova Entidade Personalizada
+  name: Nome
+  description: Descrição
+  details: Detalhes
+  type: Tipo
+  length: Comprimento
+  width: Largura
+  height: Altura
+  weight: Peso
+  entity-image: Imagem da Entidade
+  measurements: Medidas
+avatar-picker:
+  avatar: Avatar
+  select-map-avatar: Selecionar avatar do mapa
+  select-avatar-rendering: Selecione um avatar para ser usado na renderização em mapas
+    ao usar recursos de rastreamento por geolocalização.
+  select-avatar: Selecionar avatar
+  select-for-preview: Selecionar para visualização
+admin:
+  navigator-app:
+    title: Aplicativo Navigator
+    name: URL de Vinculação da Instância
+    message: Use esta URL para vincular o aplicativo oficial Navigator a esta instância
+      {companyName}. Abrir esta URL em um dispositivo móvel abrirá o aplicativo Navigator
+      e atualizará sua configuração e identidade visual.
+    settings: Configurações da Entidade
+    select-input: Permitir que o motorista atualize os detalhes da entidade
+    driver-settings: Configurações do Motorista
+    description: Habilitar integração do motorista
+    upload-document: Exigir que o motorista envie documentos
+    upload-body: Adicionar documentos
+    document: Documento
+  avatar-management:
+    upload-avatar: Enviar Avatar
+    view-avatar: Visualizar Avatar
+    vehicles: Veículos
+    drivers: Motoristas
+    places: Locais
+entity-field-editing-settings:
+  entitiy-field-editing-settings: Configurações de Edição de Campos da Entidade
+  entity-field-editing-settings-help-text: Estas configurações determinam quais campos
+    de uma entidade podem ser editados por um motorista via aplicativo Navigator
+  select-order-config: Selecionar Configuração de Pedido
+  select-order-config-help-text: Selecione uma configuração de pedido à qual estas
+    configurações serão aplicadas
+  enable-driver-to-edit-entity-fields: Permitir que o motorista edite detalhes da
+    entidade
+  enable-driver-to-edit-entity-fields-help-text: Ativar esta opção concede ao motorista
+    permissão para modificar campos específicos da entidade escolhidos abaixo.
+driver-onboard-settings:
+  driver-onboard-settings: Configurações de Integração do Motorista
+  enable-driver-onboard-from-app: Permitir integração do motorista pelo aplicativo
+    Navigator
+  enable-driver-onboard-from-app-help-text: Ativar esta configuração permite que os
+    motoristas se integrem de forma independente (criem sua própria conta) via aplicativo
+    Navigator.
+  select-onboard-method: Selecionar método de integração do motorista
+  select-onboard-method-help-text: Esta configuração determina como os motoristas
+    podem criar suas contas através do aplicativo Navigator. Escolha 'Convite' se
+    os motoristas precisarem receber um convite por e-mail para criar sua conta. Selecione
+    'Botão' se desejar habilitar um botão no aplicativo que permita que qualquer pessoa
+    crie uma conta de motorista.
+  require-driver-to-upload-onboard-documents: Exigir que o motorista envie documentos
+    de integração
+  require-driver-to-upload-onboard-documents-help-text: Esta configuração obriga o
+    motorista a fornecer documentos antes que sua conta possa ser criada.
+  required-onboard-documents: Documentos de integração obrigatórios
+  required-onboard-documents-help-text: Insira todos os documentos de integração que
+    o motorista deve fornecer abaixo usando o botão "Adicionar documento de integração".
+  enter-document-name: Digite o nome do documento
+  add-onboard-document: Adicionar documento de integração
+cell:
+  driver-name:
+    not-assigned: Nenhum motorista atribuído
+live-map-drawer:
+  driver-listing:
+    location: Localização
+    current-job: Trabalho Atual
+    last-seen: Última Visualização
+    view-driver: Ver detalhes do motorista...
+    edit-driver: Editar motorista...
+    locate-driver: Localizar motorista...
+    delete-driver: Excluir motorista...
+    warning-message: Não foi possível localizar o motorista.
+    message: Filtrar motoristas por palavra-chave...
+  place-listing:
+    location: Localização
+    place: Local
+    view-place: Ver detalhes do local...
+    edit-place: Editar local...
+    locate-place: Localizar local...
+    delete-place: Excluir local...
+    warning-message: Não foi possível localizar o local.
+    message: Filtrar locais por palavra-chave...
+  vehicle-listing:
+    location: Localização
+    last-seen: Última vez visto
+    view-vehicle: Ver detalhes do veículo...
+    edit-vehicle: Editar veículo...
+    locate-vehicle: Localizar veículo...
+    delete-vehicle: Excluir veículo...
+    warning-message: Não foi possível localizar o veículo.
+    message: Filtrar veículos por palavra-chave...
+scheduler:
+  success-message: Pedido {orderId} foi agendado para {orderAt}.
+  info-message: Pedido {orderId} foi desmarcado.
+  title: Agendador
+  unscheduled-orders: Pedidos não agendados
+  scheduled-orders: Pedidos agendados
+  unauthorized-to-schedule: Você não está autorizado a agendar pedidos.
+  scheduling-for: Agendando para {orderId}
+  add-shift: Adicionar Turno
+  create-shift: Criar Turno
+  edit-shift: Editar Turno
+  delete-shift: Excluir Turno
+  delete-shift-confirm: Tem certeza de que deseja excluir este turno? Esta ação não
+    pode ser desfeita.
+  shift-created: Turno criado com sucesso.
+  shift-updated: Turno atualizado com sucesso.
+  shift-title: Título do Turno
+  shift-title-placeholder: 'ex.: Rota de Entregas da Manhã'
+  shift-start: Início do Turno
+  shift-end: Fim do Turno
+  shift-notes-placeholder: Observações opcionais sobre este turno
+  select-start-datetime: Selecione a data e hora de início
+  select-end-datetime: Selecione a data e hora de término
+  select-driver: Selecionar Motorista
+  upcoming-shifts: Próximos Turnos
+  no-upcoming-shifts: Nenhum turno agendado.
+  hours-of-service: Jornada de Trabalho
+  daily-driving-hours: Horas de Direção Diárias
+  weekly-hours: Horas Semanais
+  compliance-status: Situação de Conformidade
+  set-availability: Definir Disponibilidade
+  availability-set: Disponibilidade salva com sucesso.
+  availability-time-off: Disponibilidade e Folgas
+  no-availability-restrictions: Nenhuma restrição de disponibilidade definida.
+  available: Disponível
+  unavailable: Indisponível
+  unavailable-time-off: Indisponível / Folga
+  availability-type: Tipo de Disponibilidade
+  request-time-off: Solicitar Folga
+  submit-request: Enviar Solicitação
+  time-off-requested: Solicitação de folga enviada.
+  delete-availability: Excluir Disponibilidade
+  delete-availability-confirm: Tem certeza de que deseja remover este registro de disponibilidade?
+  availability-deleted: Registro de disponibilidade removido.
+  start-date: Data de Início
+  end-date: Data de Término
+  select-start-date: Selecione a data de início
+  select-end-date: Selecione a data de término
+  reason: Motivo
+  reason-placeholder: 'ex.: Compromisso pessoal'
+  notes-placeholder: Observações adicionais opcionais
+  shift: Turno
+  add-shift-hint: Clique em "Adicionar Turno" para agendar um novo turno.
+  time-off-exceptions: Folgas e Exceções
+  no-exceptions: Nenhuma folga ou exceção registrada.
+  exception-approved: Exceção aprovada.
+  exception-rejected: Exceção rejeitada.
+  exception-deleted: Exceção removida.
+  delete-exception: Excluir Exceção
+  delete-exception-confirm: Tem certeza de que deseja remover esta exceção?
+  approve: Aprovar
+  reject: Rejeitar
+  recurring-schedule-created: Agenda recorrente criada e turnos gerados.
+  recurring-schedule: Agenda Recorrente
+  is-recurring: Recorrente
+  recurrence-pattern: Padrão de Recorrência
+  recurrence-start-date: Começa em
+  recurrence-end-date: Termina em (opcional)
+  template-name: Nome do Modelo
+  template-name-placeholder: 'ex.: Semana Padrão'
+  schedule-name: Nome da Agenda
+  schedule-name-placeholder: 'ex.: Semana Padrão'
+  one-off-shift: Turno Avulso
+  one-off-shift-help: Ative para adicionar um único turno em uma data e hora específicas,
+    em vez de uma agenda recorrente.
+  template-color: Cor
+  shift-start-time: Início do Turno
+  shift-end-time: Fim do Turno
+  break-start-time: Início do Intervalo
+  break-end-time: Fim do Intervalo
+  day-monday: Segunda-feira
+  day-tuesday: Terça-feira
+  day-wednesday: Quarta-feira
+  day-thursday: Quinta-feira
+  day-friday: Sexta-feira
+  day-saturday: Sábado
+  day-sunday: Domingo
+  frequency-daily: Diária
+  frequency-weekly: Semanal
+  frequency-monthly: Mensal
+  today: Hoje
+  orders-tab: Agenda de Pedidos
+  fleet-schedule-tab: Agenda da Frota
+  break-start: Início do Intervalo
+  break-end: Fim do Intervalo
+  select-break-start: Selecione o horário de início do intervalo
+  select-break-end: Selecione o horário de fim do intervalo
+  select-date: Selecione a data
+  working-days: Dias de Trabalho
+  recurrence-start: Começa em
+  recurrence-end: Termina em
+  recurring-schedule-help: Defina um padrão de turno recorrente usando dias e horários.
+    Os turnos serão criados automaticamente para o motorista.
+  shift-deleted: Turno excluído com sucesso.
+  day-mon: Seg
+  day-tue: Ter
+  day-wed: Qua
+  day-thu: Qui
+  day-fri: Sex
+  day-sat: Sáb
+  day-sun: Dom
+  view-day: Dia
+  view-week: Semana
+  undo: Desfazer última ação
+  redo: Refazer última ação
+  search-orders: Buscar pedidos...
+  select-all: Selecionar todos
+  all-scheduled: Todos os pedidos agendados
+  not-scheduled: Não Agendado
+  expand-sidebar: Expandir barra lateral
+  collapse-sidebar: Recolher barra lateral
+  bulk-assign: Atribuir {count} pedidos
+  bulk-assign-title: Atribuir {count} Pedidos em Massa
+  bulk-assign-success: '{count} pedidos atribuídos com sucesso.'
+  bulk-assign-order-count: '{count} pedidos selecionados para atribuição'
+  bulk-assign-spacing-hint: Os pedidos serão agendados em sequência a partir da data
+    e hora selecionadas, espaçados pela duração estimada.
+  assign-to-driver: Atribuir ao Motorista
+  assign-orders: Atribuir Pedidos
+  orders-to-assign: '{count} pedidos para atribuir'
+  scheduled-date: Data Agendada
+  conflict-title: Conflito de Agendamento Detectado
+  conflict-description: '{orderTracking} se sobrepõe a um pedido existente de {driverName}.'
+  conflicting-orders: Pedidos em Conflito
+  conflict-resolution-prompt: Como você deseja resolver este conflito?
+  auto-adjust: Ajustar Horário Automaticamente
+  assign-anyway: Atribuir Mesmo Assim
+  clear-selection: Limpar seleção
+modals:
+  new-custom-field-group:
+    modal-title: Criar um novo grupo de campos personalizados
+    group-name: Nome do grupo
+  assign-driver:
+    select-driver: Selecionar Motorista
+    select-assign: Selecionar motorista para atribuir
+  clone-config-form:
+    name: Nome da configuração
+    description: Descrição da configuração
+  driver-assign-order:
+    order: Selecionar pedido
+    assign-order: Selecionar pedido para atribuir
+  driver-assign-vehicle:
+    vehicle: Selecionar veículo
+    assign-vehicle: Selecionar veículo para atribuir
+  driver-assign-vendor:
+    vendor: Selecionar fornecedor
+  driver-details:
+    job: Trabalho atual
+    view: Ver no mapa
+  driver-form:
+    select-vendor: Selecionar fornecedor
+    select-vehicle: Selecionar veículo
+  edit-meta-form:
+    add: Adicionar metacampo
+  entity-form:
+    name-text: Nome do item ou entidade.
+    id-text: Use este campo para definir opcionalmente um identificador personalizado
+      ou identificador interno para a entidade.
+    sku: SKU
+    sku-text: Número da unidade de manutenção de estoque, se aplicável.
+    description: Descrição
+    description-text: Texto adicional de descrição da entidade.
+    price-title: Preços e Valor
+    price: Preço
+    price-text: Preço da entidade.
+    sale-price: Preço de venda
+    sale-price-text: Preço de venda ou preço com desconto da entidade.
+    declare: Valor declarado
+    declare-text: Valor declarado da entidade, útil se for segurável.
+    measurement-title: Medidas e Peso
+    length: Comprimento
+    length-text: O comprimento da entidade.
+    width: Largura
+    width-text: A largura da entidade.
+    height: Altura
+    height-text: A altura da entidade.
+    weight: Peso
+    weight-text: O peso da entidade.
+  entity-meta-field-prompt:
+    name: Chave do Campo Meta
+  fleet-form:
+    title: Nome da Frota
+    assign: Atribuir à Área de Serviço
+    assign-text: Selecione a área de serviço para atribuir a frota
+    zone: Atribuir à Zona
+    zone-text: Selecione a zona para atribuir a frota
+    task: Tarefa/ Missão
+    task-text: Forneça uma descrição da tarefa ou missão principal desta frota, se
+      aplicável.
+    select-task: Selecionar tarefa
+    status-text: Selecione o status da frota.
+    select-status: Selecionar status
+  fuel-report-details:
+    fuel: Combustível/ Volume
+  fuel-report-form:
+    select-driver: Selecionar Motorista
+    select-vehicle: Selecionar Veículo
+    volume: Volume
+    volume-text: Selecione a unidade métrica e o volume de combustível para reportar.
+  group-details:
+    name: Nome do Grupo
+    member: Membros
+    address: Endereço
+  group-form:
+    title: Nome do Grupo
+    users-add: Selecione usuários para adicionar ao grupo
+    search: Pesquise e selecione usuários para adicionar a este grupo.
+    select-user: Selecionar usuário para adicionar ao grupo
+    no-users: Nenhum usuário adicionado ao grupo
+  install-prompt:
+    message: Você está tentando instalar a extensão {extensionName}. Tem certeza de
+      que deseja prosseguir com esta instalação?
+    sub-message: Algumas extensões requerem acesso aos seus recursos.
+  issue-details:
+    assigned: Atribuído a
+    type: Tipo de Problema
+    category: Categoria do Problema
+  issue-form:
+    reported: Reportado Por
+    select-reporter: Selecionar Reportador
+    assigned: Atribuído a
+    select-assignee: Selecionar Responsável
+    select-driver: Selecionar Motorista
+    select-vehicle: Selecionar Veículo
+    select-type: Selecionar Tipo
+    select-category: Selecionar Categoria
+    type: Tipo de Problema
+    type-text: Selecione o tipo de problema
+    category: Categoria do Problema
+    category-text: Selecione a categoria do problema
+    report: Relatório de Problema
+    tags: Tags do Problema
+    add-tags: Adicionar tags
+    select-status: Selecionar status do problema
+  map-layer-form:
+    layer-type: Tipo de Camada
+    layer-type-text: Selecione o tipo de camada que deseja criar.
+    select-layer-type: Selecionar tipo de camada...
+    service-area: Área de Serviço
+    service-area-text: Selecione a Área de Serviço para atribuir esta Zona.
+    select-service-area: Selecione a área de serviço para atribuir a frota
+    set-name: Defina um nome de exibição para o {options}.
+    service-type: Tipo de Área de Serviço
+    service-type-text: Selecione a definição de tipo para esta área de serviço.
+    select-service-type: Selecione o tipo de área de serviço...
+    customize-border: Personalize a cor da borda para este {options}.
+    customize-fill-color: Personalize a cor de preenchimento para este {options}.
+    service-area-country: País da Área de Serviço
+    service-area-country-text: Opcionalmente defina o país onde esta Área de Serviço
+      está localizada ou baseada.
+  new-order-config:
+    name: Nome da Configuração
+    description: Descrição da Configuração
+    tags: Tags da Configuração
+    add-tags: Adicionar tags
+  order-assign-driver:
+    select-driver: Selecionar Motorista
+    select-assign: Selecione o Motorista para Atribuir
+  order-config-new-status:
+    new-status: Novo Status
+    status-text: Digite um novo status de atividade para adicionar ao fluxo
+  order-event:
+    schedule: Agendar
+    unschedule: Cancelar Agendamento
+  order-form:
+    id-text: Use este campo para definir opcionalmente um identificador personalizado
+      ou identificador interno para o pedido.
+    schedule-text: A data e hora em que o pedido será despachado. Se nenhum motorista
+      for atribuído no momento do despacho, o despacho falhará. Se o pedido for Ad-Hoc,
+      o pedido será enviado para motoristas nas proximidades da coleta.
+    customer: Cliente
+    customer-text: Opcionalmente atribua o cliente deste pedido. Se for um cliente
+      novo, use o botão 'Novo Cliente' acima.
+    select-customer: Selecionar Cliente
+    facilitator: Facilitador
+    facilitator-text: Opcionalmente atribua um facilitador para este pedido, um facilitador
+      pode ser um subcontratado terceirizado ou serviço que facilitará o transporte
+      deste pedido.
+    select-facilitator: Selecionar Facilitador
+    assign-driver: Atribuir Motorista
+    assign-driver-text: Atribua o motorista para quem este pedido será despachado.
+    select-driver: Selecionar Motorista
+    assign-vehicle: Atribuir Veículo
+    assign-vehicle-text: Atribua o veículo com o qual este pedido será realizado.
+    select-vehicle: Selecionar Veículo
+  order-import:
+    loading-message: Processando importação...
+    drop-upload: Solte para enviar
+    invalid: Inválido
+    ready-upload: pronto para envio.
+    upload-spreadsheets: Enviar Planilhas
+    drag-drop: Arraste e solte arquivos de planilha nesta área
+    button-text: ou selecione planilhas para enviar
+    spreadsheets: planilhas
+    upload-queue: Fila de Envio
+  order-label:
+    loading: Carregando Etiqueta...
+  order-new-activity:
+    select-message: Selecione um status de atividade para atualizar o rastreamento
+      do pedido, ou insira uma atividade personalizada.
+    order-currently-message: Este pedido está atualmente {options}, atividade adicional
+      substituirá este status.
+    not-recommend-message: O Fleetbase não recomenda isso a menos que você realmente
+      saiba o que está fazendo.
+    activity-options: Opções de Atividade
+    activity: atividade
+    dispatch: Isso acionará o despacho do pedido.
+    status: Status de atividade personalizada
+    details: Detalhes da atividade personalizada
+    code: Código da atividade personalizada
+    fleetbase-message: A Fleetbase não recomenda isso a menos que você realmente saiba
+      o que está fazendo.
+  order-route-form:
+    toggle: Alternar Múltiplas Entregas
+    optimize: Otimizar Rota
+    optimize-text: A Fleetbase irá otimizar automaticamente a rota.
+    add: Adicionar Ponto de Parada
+    add-text: Use o botão `Adicionar Ponto de Parada` para adicionar mais paradas
+      para este pedido. O motor de roteamento da Fleetbase irá otimizar automaticamente
+      a rota conforme cada parada é adicionada ou removida.
+    select-waypoint: Selecionar Ponto de Parada
+    pickup: Coleta
+    edit-address: Editar Endereço
+    select-pickup: Selecionar Coleta
+    invalid: Coordenadas inválidas!
+    dropoff: Entrega
+    select-dropoff: Selecionar Entrega
+    return: Retorno
+    select-return: Selecionar Retorno
+  place-assign-vendor:
+    select-vendor: Selecionar Fornecedor
+  place-details:
+    view: Visualizar no mapa
+  policy-form:
+    name: Nome da Política
+    name-text: Digite um nome para sua política
+    description: Descrição da Política
+    description-text: Digite uma descrição para sua política
+    permissions: Selecionar Permissões
+  role-form:
+    name: Nome do papel
+    name-text: Digite um nome para este papel
+    permissions: Selecionar Permissões
+  select-payment-method:
+    card-ending: Cartão terminando em {method}
+  service-area-form:
+    name: Nome da Área de Serviço
+    name-text: Defina um nome para exibição da área de serviço.
+    type: Tipo de Área de Serviço
+    type-text: Selecione a definição de tipo para esta área de serviço.
+    select-type: Selecione o tipo de área de serviço...
+    border-color: Cor da Borda da Área de Serviço
+    customize-border-color: Personalize a cor da borda para esta área de serviço.
+    area-color: Cor da Área de Serviço
+    customize-area-color: Personalize a cor de preenchimento para esta área de serviço.
+    country: País da Área de Serviço
+    country-text: Opcionalmente defina o país onde esta área de serviço está localizada
+      ou baseada.
+  set-password:
+    message: Bem-vindo à Fleetbase! Antes de começar, defina uma nova senha para continuar
+      abaixo.
+    new-password: Nova Senha
+    confirm-password: Confirmar Senha
+    help-text: Digite uma senha com pelo menos 8 caracteres para continuar.
+  uninstall-prompt:
+    message: Você está tentando desinstalar a extensão "{options}". Tem certeza de
+      que deseja prosseguir com esta desinstalação?
+    sub-message: Todas as configurações e personalizações serão perdidas.
+  vehicle-details:
+    make: Marca
+    model: Modelo
+    year: Ano
+    driver-assigned: Motorista Atribuído
+    no-driver-assigned: Nenhum motorista atribuído
+    vehicle-assigned: Veículo Atribuído
+    no-vehicle-assigned: Nenhum veículo atribuído
+    avatar: Avatar
+    model-information: Informações do Modelo
+    acceleration: 0 a 100 Kph
+    body: Carroceria
+    doors: Portas
+    length: Comprimento (mm)
+    seats: Assentos
+    top-speed: Velocidade Máxima (kph)
+    transmission: Tipo de Transmissão
+    weight: Peso (kg)
+    wheelbase: Distância entre Eixos (mm)
+    width: Largura (mm)
+    engine-information: Informações do Motor
+    engine-bore: Diâmetro do Cilindro (mm)
+    cc: CC
+    compression: Compressão
+    cylinder: Cilindros
+    position: Posição
+    power-ps: Potência (ps)
+    power-rpm: Potência (rpm)
+    stroke: Curso (mm)
+    torque-nm: Torque (Nm)
+    torque-rpm: Torque (rpm)
+    valves: Válvulas por Cilindro
+    fuel-information: Informações de Combustível
+    fuel: Combustível
+    fuel-cap: Capacidade do Tanque (l)
+    liters-city: Litros por km na Cidade
+    liters-highway: Litros por km na Rodovia
+    liters-mixed: Litros por km Misto
+  vehicle-form:
+    map-avatar: Selecionar avatar do mapa
+    map-avatar-text: Selecione um avatar para ser usado na renderização em mapas ao
+      utilizar recursos de rastreamento por geolocalização.
+    select-avatar: Selecionar avatar
+    make: Marca do Veículo
+    model: Modelo do Veículo
+    year: Ano do Veículo
+    select-driver: Selecionar Motorista
+    body: Tipo de Carroceria do Veículo
+    doors: Número de Portas
+    type: Tipo de Tração do Veículo
+    length: Comprimento do Veículo (mm)
+    seats: Número de Assentos
+    top-speed: Velocidade Máxima do Veículo (kph)
+    transmission: Tipo de Transmissão do Veículo
+    weight: Peso do Veículo (kg)
+    wheelbase: Distância entre Eixos do Veículo (mm)
+    width: Largura do Veículo (mm)
+    engine-bore: Diâmetro do Motor (mm)
+    cc: CC
+    compression: Compressão do Motor
+    cylinder: Cilindros do Motor
+    position: Posição do Motor
+    power-ps: Potência do Motor (ps)
+    power-rpm: Potência do Motor (rpm)
+    stroke: Comprimento do Curso (mm)
+    torque-nm: Torque do Motor (nm)
+    torque-rpm: Torque do Motor (rpm)
+    fuel-type: Tipo de Combustível
+    fuel-cap: Volume do Tanque de Combustível (L)
+  vendor-details:
+    sandbox: Sandbox
+    host: Host
+    namespace: Namespace
+  vendor-form:
+    choose-vendor: Escolher Fornecedor Integrado
+    create-vendor: Criar Fornecedor Personalizado
+    credentials: Credenciais
+    options: Opções
+    hide-advanced: Ocultar Avançado
+    show-advanced: Mostrar Avançado
+    custom-host: Host Personalizado
+    host-text: Opcionalmente forneça um host personalizado que deve ser usado para
+      esta integração.
+    custom-namespace: Namespace Personalizado
+    namespace-text: Opcionalmente forneça um namespace personalizado ou versão da
+      API que deve ser usado para a integração.
+    webhook: URL do Webhook
+    webhook-text: Fornecedores integrados normalmente exigem isso para que o Fleetbase
+      possa receber atualizações de atividade no pedido. Não altere a menos que saiba
+      o que está fazendo! Alterar isso pode quebrar suas atualizações de pedido!
+    cancel-credentials: Cancelar redefinição de credenciais
+    reset-message: Credenciais sensíveis só podem ser redefinidas, para atualizar
+      as credenciais você deve inseri-las novamente.
+    optionally: Opcionalmente forneça seu próprio
+    configure-vendor: para configurar este fornecedor.
+    select: Selecionar
+    sandbox: Sandbox
+    name-text: O nome do fornecedor, normalmente o nome de uma empresa.
+    email-text: O e-mail do fornecedor, pode ser usado para enviar e-mails ao fornecedor.
+    phone-text: O telefone do fornecedor, pode ser usado para enviar SMS ou mensagens
+      ao fornecedor.
+    website-text: O site do fornecedor, opcionalmente adicione o site do fornecedor
+      para referência.
+    select-address: Selecionar Endereço
+  zone-form:
+    name: Nome da Zona
+    name-text: Defina um nome para exibição da zona.
+    border-color: Cor da Borda da Zona
+    customize-border: Personalize a cor da borda para esta zona.
+    zone-color: Cor da zona
+    customize-fill-color: Personalize a cor de preenchimento para esta zona.
+    optionally: Opcionalmente dê uma descrição para a zona.
+    description-zone: Descrição da Zona
+radar:
+  title: Radar
+  eyebrow: Recursos
+  subtitle: Tudo o que precisa de uma decisão em recursos, manutenção, inspeções e
+    escalas, uma linha por registro.
+  summary: '{open} abertos · {snoozed} adiados · última sincronização {time}'
+  search-placeholder: Filtrar itens
+  reload: Recarregar
+  new-notice: Novo aviso
+  showing: Exibindo {count} de {total} · agrupados por vencimento
+  sources-warning: 'Algumas fontes não puderam ser carregadas: {sources}'
+  briefing:
+    title: Resumo da manhã
+    score: Índice de saúde da frota
+    of-100: / 100
+    vs-yesterday: '{delta} em relação a ontem'
+    no-history: primeira leitura
+    generated: Gerado {time} · fontes vinculadas
+    yesterday: 'Ontem: {closed} pendências resolvidas, {rolled} transferidas'
+    decisions: Decisões aguardando você
+    decisions-count: '{shown} de {total}'
+    nothing-to-decide: Nada para decidir.
+    confirm: Confirmar
+    not-now: Agora não
+    undo: Desfazer
+    wake-now: Retomar agora
+    confirmed: Confirmado {time}
+    snoozed-until: Adiado até {time}
+    filter: Filtrar
+    collapse: Recolher resumo
+    expand: Mostrar resumo
+    open-record: Abrir registro
+    working: Processando…
+  views:
+    list: Lista
+    agenda: Agenda
+  agenda:
+    window-24h: Próximas 24h
+    window-7d: 7 dias
+    overdue: Atrasados
+    later: Depois
+    anytime: Sem data
+    anytime-count: '{count} sem data'
+    no-events: Nenhum evento neste período.
+    drag-hint: Arraste um item para uma faixa para definir um horário.
+    print: Imprimir folha de passagem de turno
+    see-all: Ver todos os {count} →
+    planned: Planejado
+    now: agora
+    lanes:
+      shifts: Turnos
+      maintenance: Manutenção
+      expiries: Vencimentos
+      notices: Avisos
+    shift-states:
+      on_shift: em turno
+      not_online: não está online
+      upcoming: próximo
+      ended: encerrado
+    summary: '{shifts} turnos no período · {overdue} atrasados · {anytime} sem data'
+  handover:
+    title: Fim de turno
+    ends-in: em {minutes}
+    orders-on-driver: '{count} pedidos ativos ainda com {name}'
+    finishes-after: termina depois do turno
+    suggested: Passagem sugerida
+    on-shift-till: em turno até {time}
+    away: a {distance} km
+    reassign: Reatribuir {count} pedidos para {name}
+    extend: Estender turno em 1h
+    snooze: Adiar 1h
+    no-cover: Ninguém em turno por tempo suficiente para cobrir; estenda o turno ou
+      reatribua manualmente.
+    reassigned: Pedidos transferidos para {name}.
+    extended: Turno estendido em uma hora.
+    loading: Procurando cobertura…
+  tabs:
+    open: Abertos
+    snoozed: Adiados
+    resolved: Resolvidos
+  pills:
+    overdue: Atrasados
+    due_week: Vencem esta semana
+    unassigned: Sem responsável
+    issues: Problemas abertos
+    inspections: Inspeções
+    shifts: Trocas de turno
+    expiring: Vencem em 30 dias
+    low_stock: Estoque baixo
+    fuel: Combustível sem vínculo
+    notices: Avisos
+  groups:
+    overdue: Atrasados
+    today: Hoje
+    week: Esta semana
+    later: Depois
+    none: Sem data
+  rules:
+    maintenance_overdue: Manut.
+    maintenance_due_soon: Manut.
+    inspection_due: Inspeção
+    inspection_failed: Inspeção
+    inspection_unresolved: Inspeção
+    inspection_draft: Inspeção
+    inspection_link_pending: Inspeção
+    vehicle_inspection_failed: Inspeção
+    work_order_overdue: Ordem de serviço
+    work_order_blocked: Ordem de serviço
+    issue_open: Problema
+    shift_late_start: Turno
+    shift_no_vehicle: Turno
+    shift_handover: Passagem
+    driver_without_vehicle: Sem veículo
+    vehicle_without_driver: Ocioso
+    vehicle_without_device: Dispositivo
+    device_unattached: Dispositivo
+    license_expiring: CNH
+    lease_expiring: Locação
+    fuel_unmatched: Combustível
+    part_low_stock: Peças
+    notice: Aviso
+  actions:
+    acknowledge: Reconhecer
+    snooze: Adiar
+    wake: Retomar agora
+    assign: Atribuir
+    unassign: Remover responsável
+    plan: Definir horário
+    unplan: Limpar horário
+    resolve: Resolver
+    open-record: Abrir registro
+    assign-vehicle: Atribuir veículo
+    assign-driver: Atribuir motorista
+    create-work-order: Criar ordem de serviço
+    create-issue: Criar problema
+    mark-resolved: Marcar como resolvido
+    send-pin: Enviar PIN
+    revoke-link: Revogar link
+    revoke-links: Revogar {count, plural, one {# link} other {# links}}
+    match-vehicle: Vincular veículo
+    ignore: Ignorar
+    attach: Vincular ao veículo
+    call: Ligar
+    cover-shift: Cobrir turno
+    reassign: Reatribuir pedidos
+    extend-shift: Estender turno em 1h
+    select: Selecionar
+    deselect: Desmarcar
+    more: Mais
+  snooze:
+    1h: 1 hora
+    4h: 4 horas
+    tomorrow: Amanhã de manhã
+    next-week: Próxima semana
+    pick: Escolher uma data…
+    pick-title: Adiar até
+    pick-label: Retomar em
+  state:
+    acknowledged-by: Reconhecido por {name} {time}
+    acknowledged: Reconhecido
+    snoozed-until: Adiado até {time}
+    assigned-to: Atribuído a {name}
+    unassigned: Sem responsável
+    planned-for: Planejado para {time}
+    resolved-by: Resolvido por {name} {time}
+    resolved-auto: Encerrado no registro
+  bulk:
+    selected: '{count} selecionados'
+    clear: Limpar
+    summary: '{count} itens'
+  keys:
+    move: mover
+    select: selecionar
+    acknowledge: reconhecer
+    snooze: adiar
+    assign: atribuir
+    open: abrir registro
+    close: fechar
+  empty:
+    title: Nada precisa de decisão.
+    snoozed-hint: '{count} itens adiados voltam esta semana.'
+    nothing-snoozed: Nada está adiado.
+    wakes: volta {time}
+    filtered-title: Nada corresponde a estes filtros.
+    filtered-hint: Remova um filtro ou limpe a busca para ver mais.
+    snoozed-title: Nada está adiado.
+    snoozed-tab-hint: Os itens adiados voltam para a lista quando chega o horário
+      de retomada.
+    resolved-title: Nada resolvido nos últimos 7 dias.
+    resolved-hint: Os itens são encerrados aqui quando o registro que descrevem muda
+      ou quando um aviso é resolvido.
+  saved-views:
+    title: Visualizações
+    save-current: Salvar atual
+    name-prompt: Dê um nome a esta visualização
+    name-placeholder: 'ex.: Vencem esta semana'
+    saved: Visualização salva.
+    delete: Excluir visualização
+    deleted: Visualização removida.
+    defaults:
+      my-assignments: Minhas atribuições
+      shift-changes: Trocas de turno
+      due-this-week: Vencem esta semana
+      unmatched-fuel: Combustível sem vínculo
+  notice:
+    title: Novo aviso
+    message: Mensagem
+    message-placeholder: Pátio fechado no sábado para recapeamento — retire os reboques
+      até sexta às 18:00
+    severity: Gravidade
+    due: Prazo
+    scope: Aplica-se a
+    scope-placeholder: Pátio 3 · frota inteira
+    create: Publicar aviso
+    created: Aviso publicado.
+    delete: Excluir aviso
+    deleted: Aviso excluído.
+    severities:
+      info: Informação
+      warning: Atenção
+      critical: Crítico
+  drawer:
+    failed-items: Itens reprovados
+    state: Situação
+    subject: Registro
+    due: Vencimento
+    window: Turno
+    details: Detalhes
+  prompts:
+    select-vehicle: Selecione um veículo
+    select-user: Selecione uma pessoa
+    assign-vehicle-title: Atribuir um veículo a {name}
+    assign-driver-title: Atribuir um motorista a {name}
+    match-vehicle-title: Vincular esta transação a um veículo
+    create-work-order-title: Criar uma ordem de serviço a partir deste plano?
+    create-work-order-body: A ordem de serviço é aberta com os padrões e a data de
+      vencimento do plano.
+    ignore-title: Ignorar esta transação?
+    ignore-body: Ela sai da fila de não vinculadas e não fica associada a nenhum veículo.
+    attach-device-title: Vincular este dispositivo a um veículo
+    revoke-link-title: Revogar este link de inspeção?
+    send-pin-title: Enviar o PIN da inspeção
+    send-pin-to: Como {name} deve receber o link e o PIN?
+    send-pin-body: Como o link e o PIN devem ser enviados?
+    send-pin-unavailable: O destinatário do link não tem e-mail nem telefone para
+      receber o PIN.
+    revoke-link-body: O link deixa de funcionar imediatamente.
+    bulk-revoke-link-title: Revogar {count, plural, one {# link de inspeção} other
+      {# links de inspeção}}?
+    bulk-revoke-link-body: Os links deixam de funcionar imediatamente. Os demais itens
+      selecionados permanecem como estão.
+    assign-user-title: Quem é o responsável?
+    assign-user-help: O responsável aparece na linha e na visualização Minhas atribuições.
+    no-selection: Escolha um primeiro.
+  toasts:
+    acknowledged: Reconhecido.
+    snoozed: Adiado até {time}.
+    woken: De volta à lista.
+    assigned: Atribuído a {name}.
+    unassigned: Responsável removido.
+    planned: Horário definido.
+    resolved: Resolvido.
+    work-order-created: Ordem de serviço criada.
+    vehicle-assigned: Veículo atribuído.
+    driver-assigned: Motorista atribuído.
+    matched: Transação vinculada.
+    ignored: Transação ignorada.
+    device-attached: Dispositivo vinculado.
+    pin-sent: PIN enviado.
+    link-revoked: Link revogado.
+    links-revoked: '{count, plural, one {# link revogado} other {# links revogados}}.'
+    links-revoke-failed: '{count, plural, one {# link não pôde ser revogado} other
+      {# links não puderam ser revogados}}.'
+    bulk-done: '{count} itens atualizados.'
+widget:
+  refresh: Atualizar
+  radar:
+    title: Radar
+    description: O que precisa de decisão na frota agora.
+    open: abertos
+    overdue: atrasados
+    snoozed: adiados
+    open-radar: Abrir Radar
+  kpi-earnings:
+    title: Receita
+  kpi-distance:
+    title: Distância Percorrida
+  kpi-aov:
+    title: Ticket Médio
+  kpi-active-orders:
+    title: Pedidos Ativos
+  kpi-drivers-online:
+    title: Motoristas Online
+  kpi-open-issues:
+    title: Problemas Abertos
+  operations-pulse:
+    title: Pulso da Operação
+  revenue-trend:
+    title: Tendência de Receita
+  orders-by-status:
+    title: Volume de Pedidos por Status
+  on-time-delivery:
+    title: Entregas no Prazo
+  top-drivers:
+    title: Melhores Motoristas
+  fuel-efficiency:
+    title: Custo e Eficiência de Combustível
+  issues-insights:
+    title: Análise de Problemas
+  maintenance-overview:
+    title: Visão Geral de Manutenção
+  geofence-violations:
+    title: Violações de Geocerca
+  live-fleet:
+    title: Mapa da Frota ao Vivo
+  fleet-ops-quickstart:
+    message: Vamos ver o que você pode fazer para acelerar as operações...
+    start-task: Iniciar Tarefa
+  get-started:
+    title: Primeiros Passos com o Fleet-Ops
+    subtitle: Configure o essencial e conclua seu primeiro fluxo de despacho.
+    completed: concluído
+    preview-title: Fluxo do primeiro pedido
+  recommended-features:
+    title: Recursos recomendados para você
+    subtitle: Conheça ferramentas que ajudam novas equipes de operação a ganhar produtividade
+      mais rápido.
+    learn-more: Saiba mais
+  key-metrics:
+    title: Métricas Fleet-Ops
+    earnings: Ganhos
+    fuel-expenses: Despesas com Combustível
+    traveled: Distância Percorrida
+    total-time: Tempo Total
+    order-scheduled: Pedidos Agendados
+    order-completed: Pedidos Concluídos
+    order-progress: Pedidos em Andamento
+    order-canceled: Pedidos Cancelados
+    driver-online: Motoristas Online
+    customers: Clientes
+    open-issue: Problema Aberto
+    closed-issues: Problemas Resolvidos
+  live-order-map:
+    loading: Carregando pedidos em andamento...
+    assigned: Motorista Designado
+    no-order: Nenhum pedido em andamento
+    message: Quando os pedidos estiverem em andamento, eles serão exibidos neste widget
+      e mostrarão a atividade em tempo real.
+  recent-orders:
+    title: Pedidos Recentes
+    loading: Carregando pedidos recentes...
+    no-orders: Nenhum pedido nesta semana
+    message-part-1: Não houve pedidos esta semana, comece movimentando-se
+    message-part-2: criando um novo pedido
+    message-part-3: ou permita que seus clientes enviem pedidos via API.
+  transactions:
+    title: Transações Recentes
+    loading: Carregando transações recentes...
+    no-transactions: Nenhuma transação nesta semana
+    message: Quando os pedidos são processados com taxas de serviço, o Fleetbase rastreia
+      as transações automaticamente.
+display-panel:
+  no-address: Nenhum endereço de {type}!
+  no-address-message: Nenhum endereço!
+driver-card:
+  no-fleets: Sem Frotas
+global-search:
+  search: Pesquisar por palavra-chave...
+integrated-order-details:
+  order-id: ID do Pedido
+  quotation-id: ID da Cotação
+  driver-id: ID do Motorista
+  link: Link Compartilhável
+  price-breakdown: Detalhamento de Preço
+  metadata: Metadados
+geofence:
+  prompts:
+    use-draw-controls-create-service-area: Use os controles de desenho à direita para
+      desenhar uma área de serviço, complete as conexões dos pontos para salvar a
+      área de serviço.
+    use-draw-controls-create-zone: Use os controles de desenho à direita para desenhar
+      uma zona dentro da área de serviço, complete as conexões dos pontos para salvar
+      a zona.
+    no-layer-found-for-resource: Nenhuma camada encontrada para este {resource}.
+    editing-enabled: Edição habilitada — ajuste os vértices e clique no ícone de confirmação
+      para aplicar.
+    resource-boundaries-updated: Limites de {resource} atualizados com sucesso.
+    edit-canceled: Edição cancelada.
+    failed-to-update-resource: Falha ao atualizar {resource}.
+live-map:
+  show-coordinates: Mostrar Coordenadas
+  center-map: Centralizar Mapa Aqui
+  zoom-in: Aumentar Zoom
+  zoom-out: Diminuir Zoom
+  toggle-draw-controls: Alternar Controles de Desenho
+  hide-draw: Ocultar Controles de Desenho
+  enable-draw: Habilitar Controles de Desenho
+  create-new-service: Criar nova Área de Serviço
+  focus-service: 'Focar Área de Serviço: {serviceName}'
+  view-driver: 'Ver Motorista: {driverName}'
+  edit-driver: 'Editar Motorista: {driverName}'
+  delete-driver: 'Excluir Motorista: {driverName}'
+  view-vehicle-for: 'Ver Veículo para: {driverName}'
+  view-vehicle: 'Ver Veículo: {vehicleName}'
+  edit-vehicle: 'Editar Veículo: {vehicleName}'
+  delete-vehicle: 'Excluir Veículo: {vehicleName}'
+  edit-zone: 'Editar Zona: {zoneName}'
+  delete-zone: 'Excluir Zona: {zoneName}'
+  assign-zone: 'Atribuir Frota à Zona: {zoneName}'
+  blur-service: 'Ocultar Área de Serviço: {serviceName}'
+  create-zone: 'Criar Zona Dentro de: {serviceName}'
+  assign-fleet: 'Atribuir Frota à Área de Serviço: {serviceName}'
+  edit-service: 'Editar Área de Serviço: {serviceName}'
+  delete-service: 'Excluir Área de Serviço: {serviceName}'
+  service-area: Área de Serviço
+  edit-boundaries: 'Editar Limites: {resource}'
+  zone: Zona
+order-config:
+  create-new-title: Criar uma nova configuração de pedido
+  warning-message: A configuração do pedido requer um nome
+  success-message: Nova configuração de pedido criada com sucesso.
+  no-order-warning: Nenhuma configuração de pedido selecionada.
+  saved-success: Configuração de pedido {orderName} salva.
+  enter-name-title: Digite o nome da configuração clonada
+  no-config-warning: Nenhum nome de configuração inserido.
+  cloned-success: Configuração de pedido clonada com sucesso.
+  body: Uma vez que esta configuração de pedido for excluída, você não poderá mais
+    criar pedidos usando-a. Tem certeza?
+  uninstall-title: Desinstalar Configuração
+  uninstall-success: Extensão {extensionName} desinstalada.
+  activity-flow-editor:
+    add-status: Adicionar novo status ao fluxo
+    no-status: Nenhum status inserido.
+    overwrite: Isso irá sobrescrever um status existente!
+    overwrite-text: Já existe outro status {statusName} neste fluxo, se continuar
+      este status será sobrescrito. Deseja sobrescrever o status {statusName} anterior?
+    overwrite-button: Sim, sobrescrever!
+    remove: Remover status
+    remove-text: Tem certeza de que deseja excluir este status? Todas as atividades
+      e lógica relacionadas serão excluídas junto com o status.
+    delete-button: Sim, excluir
+    unable-warning: O {status} deve estar nesta ordem de sequência, não é possível
+      alterar.
+    order-warning: O status criado deve sempre ser a primeira sequência de um fluxo
+      de pedido.
+    title: Fluxo de Atividades
+    message: A configuração do fluxo de atividades permitirá que você defina os diferentes
+      tipos de atividades de status de rastreamento que se aplicam a este tipo de
+      pedido. A lógica do fluxo de atividades também pode ser configurada.
+    order-flow: Fluxo de Pedido
+    waypoint-flow: Fluxo de Ponto de Passagem
+    new-activity: Nova Atividade
+    activity-details: Detalhes da Atividade
+    logic-stack: Pilha de Lógica
+    add-logic: Adicionar condição lógica
+    select-field: Selecionar campo
+    select-operator: Selecionar operador
+    enter-value: Digite o valor para comparar
+    no-logic: Nenhuma condição lógica aplicada
+  details-editor:
+    success: Instalado
+    key-text: Passe esta chave para o seu tipo de pedido para configurar o pedido
+      usando esta configuração.
+    namespace-text: Namespace único para esta extensão.
+    id: ID da Extensão
+    id-text: ID único para esta extensão.
+    version: Versão da Extensão
+    version-text: Versão desta extensão.
+    clone: Clonar Configuração
+    uninstall: Desinstalar Configuração
+    delete: Excluir Configuração
+  entities-editor:
+    warning-message: Nenhum nome de chave de campo meta inserido.
+    title: Entidades
+    message: A configuração de entidades permitirá que você defina os diferentes tipos
+      de entidades que devem ser selecionáveis para este tipo de pedido. Estes devem
+      ser usados como modelos para tornar a criação manual de pedidos mais rápida.
+    type: Tipo de Entidade
+    add-meta: Adicionar campo meta
+  fields-editor:
+    text-field: Campo de Texto
+    boolean: Booleano
+    boolean-text: Permite ao usuário alternar uma propriedade verdadeira ou falsa
+      por meio de uma caixa de seleção
+    dropdown: Seleção Suspensa
+    dropdown-text: Permite ao usuário selecionar uma opção de uma lista suspensa de
+      opções
+    datetime: Seletor de Data e Hora
+    datetime-text: Permite ao usuário selecionar uma data e hora
+    port: Seletor de Porto
+    port-text: Permite ao usuário selecionar um porto
+    vessel: Seletor de Embarcação
+    vessel-text: Permite ao usuário selecionar uma embarcação
+    warning-message: Nenhum nome de grupo inserido.
+    field-title: Campos Meta
+    new-field: Novo Campo Personalizado
+    new-custom-field: Novo Grupo de Campos Personalizados
+    field-text: A configuração de campos meta permitirá que você defina campos de
+      entrada personalizados que serão aplicados aos pedidos.
+    custom-field-group: Grupo de Campos Personalizados
+    default-field: Campos Padrão
+    custom-field: Campo Personalizado
+    type: Tipo de Campo
+    select-type: Selecione o tipo de campo
+    add-option: Adicionar Opção
+  select-message: Selecione uma configuração de pedido para modificar ou clique em
+    "Nova Config" para criar uma nova configuração de pedido.
+  new-config: Nova Config
+  loading-configuration: Carregando suas configurações de pedido...
+  select-order: Selecionar configuração de pedido
+  save-changes: Salvar Alterações
+  details: Detalhes
+  fields: Campos Personalizados
+  flow: Fluxo de Atividades
+  entities: Entidades
+order-list-overlay:
+  search: Pesquisar pedidos...
+  selected: Selecionado
+  assign: Atribuir ao motorista...
+  cancel: Cancelar pedidos...
+  delete: Excluir pedidos...
+  dispatch: Despachar pedidos...
+  actions: Ações
+  create-order: Criar novo pedido...
+  create-fleet: Criar nova frota...
+  active-orders: Pedidos Ativos
+  unassigned-orders: Pedidos Não Atribuídos
+route-list:
+  expand: Toque para expandir
+  collapse: Toque para recolher
+  more-waypoints: mais pontos de passagem
+settings:
+  telematics:
+    telematics-settings: Configurações de Telemática
+    intro: Escolha por quanto tempo sua organização mantém os eventos dos dispositivos
+      e o histórico de posições, dentro dos limites definidos pelo administrador do
+      sistema.
+    use-system-default: Usar padrão do sistema
+    history-policy-maximum: Seu administrador permite até {days} dias de histórico.
+      Retenção ilimitada não está disponível.
+    history-policy-unlimited: Seu administrador permite histórico ilimitado. Defina
+      o período de retenção como 0 para manter o histórico para sempre.
+    device-events: Retenção de Eventos dos Dispositivos
+    event-retention-days: Manter eventos dos dispositivos por (dias)
+    event-retention-days-help: Eventos mais antigos que isso são excluídos permanentemente.
+      Vale tanto para atualizações de telemetria quanto para alertas do provedor.
+    event-compact-after-days: Remover payloads brutos após (dias)
+    event-compact-after-days-help: Eventos mais antigos que isso mantêm tipo, gravidade,
+      localização e dados normalizados, mas o payload bruto do provedor é removido.
+      Os payloads brutos representam a maior parte do tamanho de cada evento.
+    compaction-warning: Os payloads brutos só são removidos de eventos que são mantidos.
+      Defina um valor menor que a retenção de eventos ou 0 para desativar a compactação.
+    positions: Retenção do Histórico de Posições
+    position-retention-days: Manter posições por (dias)
+    position-retention-days-help: O histórico de posições de veículos e reboques mais
+      antigo que isso é excluído permanentemente. A reprodução de rotas e as telas de
+      histórico só alcançam até esse limite.
+    inbox: Retenção da Caixa de Entrada e das Sincronizações
+    processed-retention-hours: Manter entregas processadas por (horas)
+    processed-retention-hours-help: Os lotes brutos do provedor ficam armazenados criptografados
+      até serem processados e são mantidos por pouco tempo para reprocessamento e diagnóstico.
+      Cada lote pode ter perto de um megabyte.
+    quarantine-retention-days: Manter entregas em quarentena por (dias)
+    quarantine-retention-days-help: Lotes que não puderam ser processados ficam disponíveis
+      para análise e reprocessamento por esse período.
+    sync-run-retention-days: Manter diagnósticos de sincronização por (dias)
+    sync-run-retention-days-help: Uma linha de sincronização é registrada por conexão
+      a cada consulta. Sincronizações em andamento nunca são removidas.
+    activity-logging: Registro de Atividade de Telemetria
+    log-telemetry-activity: Registrar atividade de telemetria
+    log-telemetry-activity-help: Grava no log de atividades os salvamentos de dispositivos,
+      eventos e veículos gerados pela telemetria. Desativado por padrão; caso contrário,
+      cada consulta adiciona várias linhas de atividade por dispositivo.
+    storage-usage: Uso de Armazenamento de Telemática do Sistema
+    table: Tabela
+    rows: Linhas
+    estimated-rows: '{count} (estimado)'
+    estimated-size: Tamanho estimado
+    oldest: Linha mais antiga
+    not-available: n/d
+    raw-payload-rows: '{count} linhas ainda contêm payloads brutos, {compactable} aptas
+      para compactação agora'
+    refresh: Atualizar
+    run-cleanup: Executar limpeza do sistema
+    run-cleanup-confirm: Isso coloca na fila a limpeza de telemática de todas as organizações,
+      usando a política do sistema salva e as preferências de histórico em vigor de
+      cada organização. Os registros expirados são excluídos permanentemente e não podem
+      ser recuperados. Continuar?
+    cleanup-queued: A limpeza de telemática foi colocada na fila para todas as organizações.
+      O uso será atualizado em breve; a limpeza ainda pode estar em execução.
+    cleanup-unavailable: Não foi possível confirmar a limpeza de telemática do sistema.
+      Tente novamente.
+    usage-unavailable: Não foi possível carregar o uso de armazenamento. Clique em Atualizar
+      para tentar novamente.
+    space-reclaim-note: O uso inclui todos os dados de telemática do sistema. As contagens
+      de linhas marcadas como estimadas usam estatísticas do banco de dados. Os tamanhos
+      incluem dados das tabelas e índices. Excluir registros libera espaço para reutilização
+      dentro do banco de dados; o uso físico do disco pode não diminuir imediatamente.
+    settings-saved: Configurações de telemática salvas.
+    settings-unavailable: Não foi possível carregar as configurações de telemática.
+      Tente novamente.
+    tables:
+      device_events: Eventos dos dispositivos
+      positions: Posições
+      telematic_deliveries: Caixa de entrada de entregas
+      telematic_sync_runs: Sincronizações
+  avatar-management: Gerenciamento de Avatares
+  custom-fields: Campos Personalizados
+  notifications:
+    fleet-ops-notification-settings: Configurações de Notificações da Frota
+    fleet-ops-notifications: Notificações da Frota
+    configure-notifications: Configurar Notificações
+    select-notifiables: Selecionar Notificáveis
+  routing:
+    fleet-ops-routing-settings: Configurações de Roteamento da Frota
+    fleet-ops-routing: Roteamento da Frota
+    configure-routing: Configurar Roteamento
+    select-routing-service: Selecionar Serviço de Roteamento
+    routing-service: Serviço de Roteamento
+    routing-service-help-text: Selecione o serviço responsável por calcular e traçar
+      rotas no mapa.
+    select-routing-distance-unit: Selecionar Unidade de Distância para Roteamento
+    routing-distance-unit: Unidade de Distância para Roteamento
+    routing-distance-unit-help-text: A unidade usada para calcular distância e rotas.
+  map:
+    fleet-ops-map-settings: Configurações do Mapa do Fleet-Ops
+    fleet-ops-map: Mapa do Fleet-Ops
+    configure-map: Configurar Mapa
+    map-provider: Provedor de Mapas
+    map-provider-help-text: Escolha o mecanismo de mapas usado para exibir o mapa de
+      operações ao vivo. O Leaflet usa os mapas do OpenStreetMap e não exige chave de
+      API. O Google Maps exige uma chave válida da API JavaScript do Google Maps.
+    select-map-provider: Selecione o provedor de mapas
+    leaflet-tile-url: URL do Provedor de Tiles do Leaflet
+    leaflet-tile-url-help-text: Modelo opcional de URL de um provedor de tiles XYZ personalizado
+      usado pelo mapa Leaflet. Deixe em branco para usar os tiles padrão do OpenStreetMap,
+      que não exigem chave de API. Use isso para apontar o Leaflet para o seu próprio
+      provedor de tiles, incluindo provedores com chave, como o CARTO.
+    leaflet-dark-tile-url: URL do Provedor de Tiles do Leaflet no Modo Escuro
+    leaflet-dark-tile-url-help-text: URL opcional do provedor de tiles usado quando
+      o console está no modo escuro. Deixe em branco para usar a URL do provedor acima
+      ou os tiles padrão do OpenStreetMap.
+    google-maps-map-type: Tipo de Mapa
+    google-maps-map-type-help-text: O estilo de mapa padrão exibido quando o Google
+      Maps está ativo.
+    select-map-type: Selecione o tipo de mapa
+    show-traffic-layer: Mostrar Camada de Trânsito
+    show-traffic-layer-help-text: Sobrepõe as condições de trânsito em tempo real na
+      visualização do Google Maps.
+    show-transit-layer: Mostrar Camada de Transporte Público
+    show-transit-layer-help-text: Sobrepõe as linhas de transporte público na visualização
+      do Google Maps.
+    settings-saved: Configurações do mapa salvas com sucesso.
+    settings-save-failed: Falha ao salvar as configurações do mapa. Tente novamente.
+  navigator-app:
+    navigator-app-settings: Configurações do Aplicativo Navegador
+  payments:
+    payments: Pagamentos
+    payment-settings: Configurações de Pagamento
+    account-not-setup-for-payments: Sua conta ainda não está configurada para aceitar
+      pagamentos.
+    to-accept-payments: Para aceitar e processar pagamentos, você deve completar o
+      processo de integração via Stripe.
+    system-stripe-not-setup: Este sistema não pode aceitar ou processar pagamentos
+      no momento, contate o administrador do sistema para configurar os pagamentos.
+    loading-settings: Carregando configurações de pagamento...
+    onboard:
+      header-title: Integração de Pagamentos
+      title-completed: A integração foi concluída com sucesso!
+      title-incomplete: Complete este processo de integração para aceitar pagamentos.
+      subtitle-completed: Sua integração foi bem-sucedida e agora você pode aceitar
+        e receber pagamentos de clientes e terceiros.
+      subtitle-incomplete: Este processo de integração deve ser concluído para que
+        os pagamentos sejam aceitos para pedidos.
+      button-continue: Continuar
+      button-start: Iniciar integração agora
+      button-in-progress: Integração em andamento
+  scheduling:
+    scheduling-settings: Configurações de Agendamento
+    materialisation: Geração de Turnos
+    horizon-days: Horizonte da Agenda (Dias)
+    horizon-days-help: Quantos dias à frente gerar turnos quando um modelo de agenda
+      é aplicado.
+    default-shift-duration: Duração Padrão do Turno (Horas)
+    default-shift-duration-help: O número padrão de horas de um turno quando nenhum
+      horário de término é informado.
+    hours-of-service: Limites de Jornada
+    hos-daily-limit: Limite Diário de Direção (Horas)
+    hos-daily-limit-help: Número máximo de horas que um motorista pode dirigir em um
+      único dia.
+    hos-weekly-limit: Limite Semanal de Direção (Horas)
+    hos-weekly-limit-help: Número máximo de horas que um motorista pode dirigir em um
+      período móvel de 7 dias.
+    behaviour: Comportamento
+    auto-activate-schedule: Ativar Agenda Automaticamente
+    auto-activate-schedule-help: Muda automaticamente uma agenda de Rascunho para Ativa
+      quando o primeiro turno é criado.
+    notify-drivers: Notificar Motoristas sobre Mudanças de Turno
+    notify-drivers-help: Envia uma notificação push aos motoristas quando seus turnos
+      são criados, atualizados ou excluídos.
+    schedule-templates: Modelos de Agenda Reutilizáveis
+    no-templates: Nenhum modelo reutilizável foi criado ainda.
+    new-template: Novo Modelo
+    edit-template: Editar Modelo
+    delete-template: Excluir Modelo
+    delete-template-confirm: Tem certeza de que deseja excluir o modelo "{name}"? Isso
+      não afetará as agendas existentes.
+    template-deleted: Modelo excluído com sucesso.
+    settings-saved: Configurações de agendamento salvas.
+maintenance-schedule:
+  actions:
+    trigger-now: Gerar Ordem de Serviço Agora
+    pause: Pausar Plano
+    resume: Retomar Plano
+work-order:
+  actions:
+    view: Ver Ordem de Serviço
+    edit: Editar Ordem de Serviço
+    delete: Excluir Ordem de Serviço
+maintenance:
+  actions:
+    view: Ver Registro de Manutenção
+    edit: Editar Registro de Manutenção
+    delete: Excluir Registro de Manutenção
+equipment:
+  actions:
+    view: Ver Equipamento
+    edit: Editar Equipamento
+    delete: Excluir Equipamento
+part:
+  actions:
+    view: Ver Peça
+    edit: Editar Peça
+    delete: Excluir Peça
+orchestrator:
+  settings-title: Configurações do Orquestrador
+  engine-settings: Mecanismo de Alocação
+  active-engine: Mecanismo de Alocação Ativo
+  active-engine-help: Selecione qual mecanismo de alocação é usado para atribuir pedidos
+    a motoristas e veículos.
+  auto-allocate-on-create: Alocar Automaticamente ao Criar Pedido
+  auto-allocate-on-create-label: Executar a alocação automaticamente quando um novo
+    pedido é criado.
+  auto-reallocate-on-complete: Realocar Automaticamente ao Concluir Entrega
+  auto-reallocate-on-complete-label: Executar a alocação novamente quando uma entrega
+    é concluída, para aproveitar a capacidade liberada.
+  constraint-settings: Restrições de Alocação
+  max-travel-time: Tempo Máximo de Deslocamento (segundos)
+  max-travel-time-help: Tempo máximo de deslocamento, em segundos, que pode ser atribuído
+    a um motorista. Deixe 0 para não haver limite.
+  balance-workload: Equilibrar Carga de Trabalho
+  balance-workload-label: Distribuir os pedidos de forma equilibrada entre os motoristas
+    e veículos disponíveis.
+  settings-saved: Configurações do orquestrador salvas.
+  workbench-title: Área de Trabalho do Orquestrador
+  unassigned-orders: Pedidos Não Atribuídos
+  no-unassigned-orders: Nenhum pedido sem atribuição — tudo em dia!
+  run-allocation: Executar Orquestrador
+  running: Executando…
+  plan-ready: Plano pronto — revise e confirme.
+  commit-plan: Confirmar Plano
+  discard-plan: Descartar
+  committed: Orquestração confirmada — {count} pedido(s) atribuído(s).
+  committed-badge: Plano confirmado
+  overridden: Alterado manualmente
+  on-shift: Em Turno
+  empty-state-title: Nenhum plano de orquestração ainda
+  empty-state-body: Clique em "Executar Orquestrador" para gerar um plano de atribuição
+    otimizado para os pedidos não atribuídos.
+  unassigned-warning: Alguns pedidos não puderam ser atribuídos — capacidade de veículos
+    insuficiente ou nenhum motorista em turno.
+  run-orchestration: Executar Orquestrador
+  options: Opções
+  mode: Modo
+  mode-allocate: Alocar Pedidos
+  mode-optimize: Otimizar Rotas
+  engine: Mecanismo
+  allocation-strategy: Estratégia de Alocação
+  allocation-strategy-route-aware: Rota + Capacidade
+  allocation-strategy-capacity-only: Somente Capacidade
+  vehicle-packing: Ocupação dos Veículos
+  vehicle-packing-minimize-vehicles: Minimizar Veículos
+  vehicle-packing-balanced: Equilibrada
+  respect-skills: Respeitar Habilidades
+  respect-capacity: Respeitar Capacidade
+  return-to-depot: Retornar ao Depósito
+  unassigned-count: 'Não atribuídos:'
+  clear: Limpar
+  search-orders: Buscar pedidos…
+  filter-all: Todos
+  filter-scheduled: Agendados
+  filter-urgent: Urgentes
+  filter-today: Hoje
+  filter-unassigned: Não Atribuídos
+  filter-imported: Importados
+  advanced-filters: Filtros Avançados
+  filter-country: País
+  filter-type: Tipo de Pedido
+  filter-status: Status
+  filter-date: Data Agendada
+  filter-country-placeholder: Todos os países
+  filter-type-placeholder: Todos os tipos
+  filter-status-placeholder: Todos os status
+  filter-date-placeholder: Qualquer data
+  clear-filters: Limpar Filtros
+  no-address: Sem endereço
+  selected: selecionados
+  clear-selection: Limpar
+  show-orders: Mostrar Pedidos
+  hide-orders: Ocultar Pedidos
+  show-drivers: Mostrar Recursos
+  hide-drivers: Ocultar Recursos
+  available-drivers: Motoristas Disponíveis
+  available-vehicles: Veículos Disponíveis
+  no-available-drivers: Nenhum motorista disponível no momento.
+  no-available-vehicles: Nenhum veículo disponível no momento.
+  no-search-results: Nenhum resultado corresponde à sua busca.
+  search-drivers: Buscar motoristas...
+  search-vehicles: Buscar veículos...
+  no-position: Sem posição
+  filter-online: Online
+  filter-offline: Offline
+  filter-on-shift: Em Serviço
+  filter-on-job: Em Serviço
+  filter-active: Ativos
+  filter-no-driver: Sem Motorista
+  proposed-routes: Rotas Propostas
+  stops: paradas
+  route: Rota
+  drivers-selected: motoristas selecionados
+  vehicles-selected: veículos selecionados
+  drop-orders-here: Solte os pedidos aqui
+  import-orders: Importar Pedidos
+  import-step-upload: Enviar
+  import-step-map: Mapear Colunas
+  import-step-preview: Pré-visualizar e Importar
+  drop-file-here: Solte aqui seu arquivo CSV ou Excel
+  or: ou
+  browse-file: Procurar arquivo
+  accepted-formats: 'Formatos aceitos: .csv, .xlsx, .xls'
+  remove-file: Remover arquivo
+  download-template: Baixar Modelo de Importação
+  download-template-desc: Use nosso modelo para garantir que seus dados sejam importados
+    corretamente.
+  download: Baixar
+  next: Próximo
+  back: Voltar
+  map-columns-title: Mapear Colunas
+  map-columns-desc: Mapeie as colunas em
+  col-target-field: Campo de Destino
+  col-your-spreadsheet: Sua Planilha
+  mapped: mapeadas
+  mapping-required-hint: É necessário mapear a Rua de Entrega 1 antes de continuar.
+  select-column: — ignorar —
+  data-preview: 'Pré-visualização dos 3 primeiros pedidos:'
+  preview-import: Pré-visualizar Importação
+  preview-desc: '{count} pedidos prontos para importar'
+  errors: erros
+  all-rows-valid: Todas as linhas são válidas
+  validation-warning: '{count} pedido(s) com erros serão ignorados.'
+  import-confirm: Confirmar Importação
+  importing: Importando…
+  col-pickup: Coleta
+  col-dropoff: Entrega
+  col-scheduled: Agendado
+  col-weight: Peso
+  col-customer: Cliente
+  col-status: Status
+  col-preview-ref: Ref. / ID
+  col-preview-type: Tipo
+  col-preview-facilitator: Intermediador
+  col-preview-vehicle: Veículo
+  col-preview-driver: Motorista
+  col-preview-entities: Itens
+  col-preview-multi-stop: '{count} paradas'
+  col-preview-pickup-dropoff: Coleta e Entrega
+  col-preview-pickup-dropoff-stops: C e E + {count} Paradas
+  error: Erro
+  valid: Válido
+  import-success: '{count} pedido(s) importado(s) com sucesso.'
+  no-valid-rows: Nenhum pedido válido para importar.
+  invalid-file-type: Envie um arquivo .csv, .xlsx ou .xls.
+  parse-error: Não foi possível ler o arquivo. Verifique o formato.
+  read-error: Não foi possível ler o arquivo.
+  empty-file: O arquivo parece estar vazio.
+  missing-dropoff: A Rua de Entrega 1 é obrigatória.
+  stops-count: '{count} paradas'
+  pickup: Coleta
+  dropoff: Entrega
+  scheduled: Agendado
+  customer: Cliente
+  driver-assigned: Motorista Atribuído
+  vehicle-assigned: Veículo Atribuído
+  no-vehicle-assigned: Nenhum veículo atribuído
+  no-driver-assigned: Nenhum motorista atribuído
+  created: Criado
+  phases: Fases
+  phases-description: Monte uma execução de orquestração em várias etapas. Cada fase
+    executa um modo específico, em sequência.
+  add-phase: Adicionar Fase
+  no-phases: Nenhuma fase configurada. Adicione uma fase para começar.
+  phase-n: Fase {n}
+  phase-label: Nome da Fase
+  save-phase: Salvar Fase
+  select-phase-to-edit: Selecione uma fase para editar suas configurações.
+  run-phases: Executar {count} Fase(s)
+  include-order-statuses: Incluir Status de Pedido
+  constraints: Restrições
+  auto-commit: Confirmar automaticamente após a fase
+  mode-assign-vehicles: Atribuir Veículos
+  mode-assign-drivers: Atribuir Motoristas
+  mode-optimize-routes: Otimizar Rotas
+  status-created: Criado
+  status-dispatched: Despachado
+  status-started: Iniciado
+  card-fields: Campos do Cartão
+  card-fields-description: Configure quais campos aparecem nos cartões de pedido na
+    área de trabalho. Os campos são agrupados por configuração de pedido, para você
+    ajustar a visualização de cada tipo de pedido.
+  card-fields-saved: Campos do cartão de pedido salvos.
+  save-card-fields: Salvar Campos do Cartão
+  standard-fields: Campos Padrão
+  standard-fields-description: Estes campos aparecem em todos os cartões de pedido,
+    independentemente do tipo de pedido.
+  config-fields-description: Campos personalizados dos pedidos {name}.
+  meta-fields: Campos de Metadados
+  meta-fields-description: Chaves de metadados livres enviadas por integrações.
+  no-custom-fields: Nenhum campo personalizado definido para esta configuração de
+    pedido.
+  field-tracking: Número de Rastreamento
+  field-status: Status
+  field-scheduled-at: Agendado Para
+  field-customer: Cliente
+  field-type: Tipo
+  field-notes: Observações
+  field-priority: Prioridade
+  field-dropoff: Endereço de Entrega
+  field-pickup: Endereço de Coleta
+  filter-available: Disponíveis
+  vehicle: Veículo
+  expand-all: Expandir tudo
+  tab-routes: Rotas
+  tab-timeline: Linha do Tempo
+  collapse-all: Recolher tudo
+  collapse-route: Recolher rota
+  expand-route: Expandir rota
+  no-plan: Execute o orquestrador para ver o plano proposto.
+  unassigned-description: Estes pedidos não puderam ser atribuídos. Eles permanecerão
+    na fila para nova alocação.
+  unassigned: não atribuídos
+  vehicles: Veículos
+  drivers: Motoristas
+  orders: Pedidos
+  cancel: Cancelar
+  no-vehicles: Nenhum veículo encontrado.
+  no-drivers: Nenhum motorista encontrado.
+  no-orders: Nenhum pedido encontrado.
+  expand-panel: Expandir painel
+  collapse-panel: Recolher painel
+  run-failed-title: Nenhuma atribuição retornada
+  try-again: Tentar Novamente
+  change-resources: Alterar Recursos
+  no-assignments-returned: O orquestrador não conseguiu atribuir nenhum pedido. Verifique
+    se os veículos têm capacidade suficiente e se há motoristas em turno.
+  stop-type-pickup: Coleta
+  stop-type-dropoff: Entrega
+  pod-required: Comprovante
+  no-pod: Sem Comprovante
+inspection:
+  form:
+    overview: Visão Geral
+    submissions: Registros
+    no-vehicle: Sem veículo
+    no-submissions: Nada registrado ainda
+    no-submissions-description: As inspeções registradas com este formulário aparecerão
+      aqui.
+    details: Detalhes do Formulário
+    name: Nome
+    name-placeholder: Inspeção diária do veículo
+    type: Tipo
+    status: Status
+    description: Descrição
+    description-placeholder: O que esta inspeção abrange
+    builder: Construtor de Formulário
+    fields: Campos
+    published: Publicado
+    structure: Estrutura do Formulário
+    loading-structure: Carregando a estrutura do formulário...
+    no-structure: Este formulário ainda não tem grupos de campos.
+    settings: Configurações
+    type-placeholder: Selecione o tipo de inspeção deste formulário
+    status-placeholder: Selecione um status
+    setting-create-issue: Abrir um registro de defeito quando um item for reprovado
+    setting-create-issue-help: Uma inspeção reprovada registra um problema no veículo,
+      para que a falha fique documentada.
+    setting-create-work-order: Abrir uma ordem de serviço quando um item for reprovado
+    setting-create-work-order-help: Os itens reprovados viram um checklist de ordem
+      de serviço para a oficina. Requer oficinas habilitadas.
+    setting-require-signature: Exigir assinatura do motorista
+    setting-require-signature-help: O aplicativo do motorista não enviará sem uma
+      assinatura. Se quiser a assinatura em um local específico, adicione um campo
+      de assinatura ao formulário.
+    legacy-checklist: Checklist Antigo
+    legacy-checklist-help: O checklist da primeira versão, mantido somente para leitura.
+      Ele é migrado para um grupo "Checklist" com campos de aprovado/reprovado.
+    create: Criar formulário de inspeção
+    created: Formulário de inspeção criado.
+    updated: Formulário de inspeção atualizado.
+  builder:
+    help: Agrupe os itens que o motorista verifica e adicione um campo para cada um.
+    loading: Carregando o construtor de formulário...
+    new-group: Novo grupo de campos
+    new-field: Novo campo
+    edit-field: 'Editar campo: {label}'
+    save-field: Salvar campo
+    untitled-group: Grupo sem título
+    untitled-field: Campo sem título
+    group-name: Nome do grupo
+    group-name-placeholder: Exterior
+    group-description: Descrição do grupo
+    group-description-placeholder: O que este grupo abrange
+    grid-size: Colunas
+    move-up: Mover para cima
+    move-down: Mover para baixo
+    no-fields: Ainda não há campos neste grupo.
+    empty-title: Nenhum grupo de campos
+    empty-description: Adicione o primeiro grupo de campos para começar a montar este
+      formulário.
+    delete: Excluir
+    delete-group-title: Excluir este grupo de campos?
+    delete-group-body: Excluir este grupo exclui todos os campos dentro dele. Isso
+      não pode ser desfeito depois que o formulário for salvo.
+    delete-field-title: Excluir este campo?
+    delete-field-body: Excluir este campo também exclui todas as respostas já registradas
+      para ele. Isso não pode ser desfeito depois que o formulário for salvo.
+  field:
+    label: Rótulo do campo
+    label-placeholder: Luzes de freio
+    name: Nome do campo
+    name-help: O nome técnico pelo qual um registro se refere a este campo. Ele acompanha
+      o rótulo até que você o defina manualmente.
+    name-placeholder: luzes-de-freio
+    type: Tipo de campo
+    description: Descrição do campo
+    description-placeholder: O que verificar e o que conta como aprovado
+    help-text: Texto de ajuda do campo
+    help-text-placeholder: Exibido ao lado do campo enquanto ele é respondido
+    required: Campo obrigatório
+    editable: Campo editável
+    options: Opções do campo
+    no-options: Nenhuma opção ainda.
+    option-placeholder: Adicionar uma opção
+    add-option: Adicionar
+    unit: Unidade
+    unit-help: Exibida ao lado do número, por exemplo km ou horas.
+    unit-placeholder: km
+    odometer-role: Este campo é a leitura do hodômetro
+    odometer-role-help: A resposta é copiada para a coluna de hodômetro da própria
+      inspeção.
+    on-fail: Em caso de reprovação
+    on-fail-help: O que uma resposta reprovada significa e o que o inspetor precisa
+      informar para que ela seja aceita.
+    default-severity: Gravidade padrão
+    require-photo-on-fail: Exigir foto quando reprovado
+    require-comment-on-fail: Exigir comentário quando reprovado
+    unsafe-on-fail: Marcar o veículo como inseguro quando reprovado
+    unsafe-on-fail-help: Uma resposta reprovada passa a ser considerada insegura por
+      padrão, o que caracteriza um defeito que tira o veículo de operação.
+    instructions: Instruções
+    instructions-placeholder: Como verificar este item, exibido para o motorista
+    column-span: Largura em colunas
+  field-type:
+    pass-fail: Aprovado / Reprovado
+    input: Texto
+    textarea: Texto longo
+    number: Número
+    select: Seleção
+    radio-button: Botões de opção
+    boolean: Sim / Não
+    date-picker: Data
+    date-time-input: Data e hora
+    file-upload: Foto ou arquivo
+    signature: Assinatura
+  severity:
+    low: Baixa
+    medium: Média
+    high: Alta
+    critical: Crítica
+  answer:
+    pass: Aprovado
+    fail: Reprovado
+    not-applicable: N/A
+    unanswered: Sem resposta
+    severity: Gravidade
+    unsafe: Inseguro para operar
+    comments: Comentários
+    comments-placeholder: O que está errado e o que é necessário
+    photos: Fotos
+    add-photo: Adicionar foto
+    upload-photo: Enviar foto
+    no-photo: Nenhuma foto anexada.
+    upload-signature: Enviar assinatura
+    no-signature: Nenhuma assinatura registrada.
+    select-placeholder: Escolha uma resposta
+    note-placeholder: Adicione uma observação
+    text-placeholder: Digite uma resposta
+    no-options: Este campo não tem respostas para escolher.
+    uploads-unavailable: Pode ser adicionado pelo console ou pelo aplicativo do motorista.
+    comments-required: Diga o que está errado e o que é necessário
+    comment-required: Comentário obrigatório quando reprovado
+    photo-required: Foto obrigatória quando reprovado
+    comment-and-photo-required: Comentário e foto obrigatórios quando reprovado
+  record:
+    overview: Visão Geral
+    inspection: Inspeção
+    details: Detalhes da Inspeção
+    form: Formulário
+    select-form: Selecione o formulário de inspeção
+    status: Status
+    result: Resultado
+    vehicle: Veículo
+    select-vehicle: Selecione o veículo
+    driver: Motorista
+    select-driver: Selecione o motorista
+    odometer: Hodômetro
+    odometer-placeholder: Hodômetro atual
+    engine-hours: Horas do Motor
+    engine-hours-placeholder: Horas atuais do motor
+    answers: Respostas
+    loading-form: Carregando o formulário de inspeção...
+    loading-answers: Carregando respostas...
+    form-has-no-fields: Este formulário ainda não tem campos. Monte-o na tela do formulário
+      de inspeção antes de preenchê-lo.
+    summary: Resumo
+    failed-of: '{failed} reprovados de {total} verificações de aprovado/reprovado'
+    metadata: Metadados
+    submitted: Enviado
+    submitted-by: Enviado Por
+    submission-title: Registro de {form}
+    due: Vencimento
+    create-issue: Criar Problema
+    create-work-order: Criar Ordem de Serviço
+    resolve: Resolver
+    via-link: Por um link público
+    via-link-pin: Por um link público, PIN verificado
+    signed-as: Assinado como "{name}"
+    name-unverified: Nome digitado, não uma conta conectada
+    resolved: Resolvido
+    item-results: Resultados dos Itens
+    no-item-results: Nenhum resultado de item registrado.
+    follow-up: Acompanhamento
+    open-form: Abrir este formulário de inspeção
+    failed: Reprovado
+    failed-count: '{count, plural, one {# reprovado} other {# reprovados}}'
+    linked-inspections: '{count, plural, one {Inspeção Vinculada} other {Inspeções
+      Vinculadas}}'
+    linked-issue: Problema Vinculado
+    linked-work-order: Ordem de Serviço Vinculada
+    photos: Fotos
+    loading-photos: Carregando fotos...
+    audit: Auditoria
+    create: Criar inspeção
+    saved: Inspeção salva.
+    updated: Inspeção atualizada.
+    form-help: O formulário publicado a partir do qual esta inspeção é preenchida.
+    choose-a-form: Escolha um formulário de inspeção para começar.
+    group-has-no-fields: Esta seção não tem verificações.
+    outstanding: ainda a responder
+    section-outstanding: '{count, plural, one {# pendente} other {# pendentes}}'
+    outstanding-field: '{label} é obrigatório antes de enviar'
+    review: Revisar →
+    jump-to: Ir para →
+  follow-up:
+    create-issue-title: Criar um problema a partir desta inspeção?
+    create-issue-summary: Um problema é registrado para o veículo e o motorista, listando
+      as verificações reprovadas e usando a maior gravidade entre elas. A inspeção
+      fica vinculada a ele.
+    create-issue-accept: Criar Problema
+    create-work-order-title: Abrir uma ordem de serviço a partir desta inspeção?
+    create-work-order-summary: Uma ordem de serviço é aberta para o veículo com um
+      checklist das verificações reprovadas. Se esta inspeção ainda não tiver um problema,
+      ele é registrado primeiro.
+    create-work-order-accept: Criar Ordem de Serviço
+    resolve-title: Resolver esta inspeção?
+    resolve-summary: A inspeção é marcada como resolvida, com data e hora registradas.
+      Qualquer problema ou ordem de serviço gerado por ela continua aberto.
+    resolve-accept: Resolver Inspeção
+    from-these: '{count, plural, one {A partir desta verificação reprovada} other
+      {A partir destas # verificações reprovadas}}'
+    unsafe-note: '{count, plural, one {# verificação está marcada como insegura para
+      operar} other {# verificações estão marcadas como inseguras para operar}}'
+    due-note: Vence em {due}, conforme a maior gravidade entre elas.
+    nothing-failed: Nada foi reprovado nesta inspeção, então não há nada a registrar.
+    submit-title: Enviar esta inspeção?
+    submit-summary: Isso registra a inspeção, grava a hora do envio e recalcula os
+      totais de aprovados e reprovados. O envio não pode ser desfeito.
+    submit-accept: Enviar inspeção
+    cancel: Cancelar
+  link:
+    public-links: Links Públicos
+    existing: Links Gerados
+    modal-help: Gere um link de uso único para {form}. Quem abrir o link digita o
+      PIN e preenche este formulário publicado sem precisar entrar no sistema.
+    loading: Carregando links...
+    none: Nenhum link foi gerado para este formulário ainda.
+    load-failed: Não foi possível carregar estes links.
+    copy: Copiar
+    copied: Link de inspeção copiado.
+    revoke: Revogar
+    revoked: Link de inspeção revogado.
+    generated: Gerado
+    generated-toast: Link de inspeção gerado.
+    publish-first: Publique este formulário de inspeção antes de gerar um link público.
+    expires: Expira
+    no-expiry: Sem validade
+    used: Usado
+    viewed: Último acesso
+    never-opened: Nunca aberto
+    unassigned: Qualquer pessoa com o link e o PIN
+    url-not-kept: Este link foi gerado antes de os links serem armazenados, então
+      a URL não pode ser exibida novamente.
+    state-active: Ativo
+    state-expired: Expirado
+    state-used: Usado
+    state-revoked: Revogado
+    state-locked: Bloqueado
+    expires-at: Expira em
+    expires-help: Os links expiram 72 horas após serem gerados, a menos que você escolha
+      outro horário.
+    assign-to: Atribuir a
+    assign-to-help: Opcional. Qualquer pessoa da sua organização pode concluir uma
+      inspeção; o registro é creditado a ela.
+    select-assignee: Selecione um usuário
+    pin: PIN
+    pin-delivery: Enviar o link e o PIN
+    pin-delivery-none: Não enviar, eu mesmo vou compartilhar
+    pin-delivery-email: Por e-mail
+    pin-delivery-sms: Por SMS
+    pin-delivery-help: Enviado para {name}, com o link para abrir e o PIN para digitar.
+    pin-delivery-no-recipient: Atribua o link a alguém ou escolha um motorista para
+      enviá-lo. Caso contrário, compartilhe o link e o PIN você mesmo; os dois são
+      exibidos depois que o link é gerado.
+    generated-title: Link gerado
+    generated-help: O link foi copiado para a área de transferência. Quem abri-lo
+      também precisa do PIN.
+    copied-pin: PIN copiado.
+    email-pin: Enviar link por e-mail
+    text-pin: Enviar link por SMS
+    pin-sent-email: Link e PIN enviados por e-mail para {to}.
+    pin-sent-sms: Link e PIN enviados por SMS para {to}.
+    pin-not-sent: 'O link e o PIN não foram enviados: {reason}'
+    pin-sent-by: '{via, select, email {Enviado por e-mail} sms {Enviado por SMS} other
+      {Enviado}}'
+    wrong-pins: '{count, plural, one {# PIN incorreto} other {# PINs incorretos}}'
+    no-pin: Sem PIN. Este link foi gerado antes de os links terem PIN.
+  public:
+    submitted-title: Inspeção enviada
+    submitted-body: Obrigado. Esta inspeção foi registrada e o link agora está encerrado.
+    unavailable-title: Esta inspeção não está disponível
+    sign-off: Assinatura
+    your-name: Seu nome
+    your-name-help: Registrado nesta inspeção como a pessoa que a preencheu.
+    your-name-placeholder: Nome completo
+    for: Para
+    pin-title: Digite seu PIN
+    pin-help: Digite o PIN de 6 dígitos que você recebeu para esta inspeção.
+    pin-label: PIN
+    pin-continue: Continuar
+    pin-wrong: 'PIN incorreto. {count, plural, one {Resta # tentativa} other {Restam
+      # tentativas}} antes de este link ser bloqueado.'
+    submit: Enviar inspeção
+    blocked-required: '{count, plural, one {Falta # resposta obrigatória} other {Faltam
+      # respostas obrigatórias}}'
+    blocked-defects: '{count, plural, one {# reprovação ainda precisa de comentário
+      ou foto} other {# reprovações ainda precisam de comentário ou foto}}'
+  flyout:
+    title: 'Defeito: {label}'
+    done: Concluir
+    close: Fechar
+  defect:
+    edit: Editar defeito
+    photos: '{count, plural, one {# foto} other {# fotos}}'
+    comment: Comentário
+    needs-comment: Precisa de comentário
+    needs-photo: Precisa de foto
+    needs-both: Precisa de comentário e foto
+    no-evidence: Ainda sem comentário ou foto
+  tray:
+    title: Defeitos
+    review: Revisar
+select-option:
+  vehicle:
+    vin: Chassi
+    serial_number: Nº de série
+    call_sign: Prefixo
+resource-summary:
+  facts:
+    address: Endereço
+    altitude: Altitude
+    amount: Valor
+    arrived: Chegada
+    assignee: Responsável
+    attached-to: Vinculado a
+    attachment: Anexo
+    axles: Eixos
+    base-fee: Taxa base
+    body-coupling: Carroceria / engate
+    calculation: Cálculo
+    category: Categoria
+    cod: Pagamento na entrega
+    code: Código
+    comments: Comentários
+    completion: Conclusão
+    connected: Conectado
+    coordinates: Coordenadas
+    core-service: Serviço principal
+    countries: Países
+    country: País
+    coverage: Cobertura
+    created: Criado
+    customer: Cliente
+    declared-value: Valor declarado
+    description: Descrição
+    destination: Destino
+    details: Detalhes
+    device: Dispositivo
+    dimensions: Dimensões
+    disconnected: Desconectado
+    distance: Distância
+    driver: Motorista
+    drivers: Motoristas
+    dropoff: Entrega
+    due: Vencimento
+    dwell: Permanência
+    email: E-mail
+    entities: Entidades
+    environment: Ambiente
+    equipped-to: Equipado em
+    eta: Previsão de chegada
+    event-type: Tipo de evento
+    expires: Expira
+    failed-items: Itens reprovados
+    fallback: Alternativa
+    fee: Taxa
+    fees: Taxas
+    firmware: Firmware
+    fitted-to: Instalado em
+    fleet: Frota
+    form: Formulário
+    fuel-report: Relatório de combustível
+    heading: Direção
+    host: Host
+    imei: IMEI
+    installed: Instalado
+    interval: Intervalo
+    items: Itens
+    key: Chave
+    last-error: Último erro
+    last-online: Última vez online
+    last-reading: Última leitura
+    last-seen: Visto por último
+    last-status: Último status
+    last-synced: Última sincronização
+    last-value: Último valor
+    licence: CNH
+    location: Localização
+    maintainable: Item de manutenção
+    make-model: Marca / modelo
+    model: Modelo
+    namespace: Namespace
+    next-due: Próximo vencimento
+    next-occurrence: Próxima ocorrência
+    occurred: Ocorrido em
+    odometer: Hodômetro
+    order: Pedido
+    order-config: Configuração do pedido
+    performed-by: Realizado por
+    period: Período
+    phone: Telefone
+    pickup: Coleta
+    place: Local
+    plate: Placa / Chassi
+    policy: Política
+    priority: Prioridade
+    progress: Progresso
+    provider: Provedor
+    published: Publicado
+    purchase-price: Preço de compra
+    quantity: Quantidade
+    reason: Motivo
+    recorded: Registrado
+    region: Região
+    relationship: Relação
+    reporter: Relator
+    request: Requisição
+    route: Rota
+    sandbox: Sandbox
+    schedule: Agenda
+    scheduled: Agendado
+    sequence: Sequência
+    serial: Nº de série
+    service-area: Área de serviço
+    service-quote: Cotação de serviço
+    service-rate: Tarifa de serviço
+    service-types: Tipos de serviço
+    severity: Gravidade
+    sku: SKU
+    speed: Velocidade
+    speed-limit: Limite de velocidade
+    station: Posto
+    status: Status
+    subject: Assunto
+    submitted: Enviado
+    submitted-by: Enviado por
+    target: Alvo
+    task: Tarefa
+    telematic: Telemática
+    threshold: Limite
+    timezone: Fuso horário
+    title: Título
+    total-cost: Custo total
+    tracking: Rastreamento
+    trailer: Reboque
+    transaction-at: Data da transação
+    triggers: Gatilhos
+    type: Tipo
+    unit-cost: Custo unitário
+    user: Usuário
+    vehicle: Veículo
+    vehicles: Veículos
+    vendor: Fornecedor
+    version: Versão
+    volume: Volume
+    warranty: Garantia
+    waypoints: Pontos de referência
+    website: Site
+    weight: Peso
+    window: Janela
+    work-order: Ordem de serviço
+    zone: Zona
+    zones: Zonas
+
+trailer:
+  navigation-description: Gerencie ativos rebocados, engates, equipamentos e telemática.
+  sections:
+    details: Detalhes
+    identification: Identificação do reboque
+    classification: Classificação e status
+    registration: Registro
+    location: Localização
+    dimensions: Dimensões e capacidade
+    measurement: Medição e uso
+    dimensions-fields: "Dimensões ({unit})"
+    weight: "Peso ({unit})"
+    running-gear: Eixos, freios e engate
+    refrigeration: Refrigeração
+    ownership: Propriedade e finanças
+    finance: Dados financeiros
+    connection: Engate ao veículo
+    telemetry: Localização e telemática
+    notes: Observações e histórico
+  fields:
+    photo: Foto
+    id: ID
+    name: Nome
+    code: Código
+    description: Descrição
+    type: Tipo de reboque
+    body-type: Tipo de carroceria
+    color: Cor
+    status: Status
+    category: Categoria
+    vin: Chassi (VIN)
+    plate-number: Placa
+    serial-number: Número de série
+    make: Fabricante
+    model: Modelo
+    year: Ano
+    vendor: Fornecedor
+    warranty: Garantia
+    vehicle: Veículo tracionador
+    attachment-state: Estado do engate
+    attached-at: Engatado desde
+    position: Posição de reboque
+    source: Origem
+    connected-at: Engatado em
+    disconnected-at: Desengatado em
+    duration: Duração
+    connectivity: Conectividade
+    last-online: Última conexão
+    last-provider: Provedor telemático
+    last-event-at: Último evento telemático
+    coordinates: Coordenadas
+    speed: Velocidade
+    heading: Direção
+    altitude: Altitude
+    devices-count: Dispositivos conectados
+    equipment-count: Equipamentos conectados
+    measurement-system: Sistema de medição
+    odometer: "Odômetro / hubodômetro {unit}"
+    odometer-unit: Unidade do odômetro
+    length: "Comprimento ({unit})"
+    width: "Largura ({unit})"
+    height: "Altura ({unit})"
+    cargo-volume: "Volume de carga ({unit})"
+    tare-weight: "Tara ({unit})"
+    gvwr: "PBT ({unit})"
+    payload-capacity: "Capacidade de carga ({unit})"
+    axle-count: Eixos
+    tire-count: Pneus
+    door-count: Portas
+    coupling-type: Tipo de engate
+    brake-type: Tipo de freio
+    abs: ABS
+    ebs: EBS
+    refrigerated: Refrigerado
+    temperature-min: "Temperatura mínima ({unit})"
+    temperature-max: "Temperatura máxima ({unit})"
+    reefer-hours: Horas do equipamento de refrigeração
+    ownership-type: Propriedade
+    financing-status: Status do financiamento
+    currency: Moeda
+    acquisition-cost: Custo de aquisição
+    current-value: Valor atual
+    insurance-value: Valor segurado
+    depreciation-rate: Taxa de depreciação (% ao ano)
+    purchased-at: Data de compra
+    lease-expires-at: Vencimento do leasing
+    notes: Observações
+    created-at: Criado em
+    updated-at: Última atualização
+  placeholders:
+    filter-vendor: Filtrar por fornecedor
+    name: ex. Refrigerado 12
+    code: Código interno da frota, ex. TRL-0012
+    description: Para que este reboque é usado
+    type: Selecione um tipo de reboque
+    status: Selecione um status
+    body-type: ex. Baú, sider, plataforma
+    color: ex. Branco
+    category: Selecione uma categoria (opcional)
+    vin: VIN com 17 caracteres
+    plate-number: Placa de registro
+    serial-number: Número de série do fabricante
+    make: ex. Randon, Schmitz, Wabash
+    model: ex. 3000R
+    year: ex. 2024
+    vendor: Selecione um fornecedor (opcional)
+    warranty: Selecione uma garantia (opcional)
+    vehicle: Selecione um veículo
+    trailer: Selecione um reboque
+    equipment: Selecione um equipamento
+    filter-vehicle: Filtrar por veículo tracionador
+    position: "1"
+    measurement-system: Selecione um sistema de medição
+    odometer-unit: Selecione uma unidade
+    odometer: Leitura atual
+    length: "0.000"
+    width: "0.000"
+    height: "0.000"
+    cargo-volume: "0.000"
+    tare-weight: "0.000"
+    gvwr: "0.000"
+    payload-capacity: "0.000"
+    axle-count: ex. 2
+    tire-count: ex. 8
+    door-count: ex. 2
+    coupling-type: Selecione um tipo de engate
+    brake-type: Selecione um tipo de freio
+    temperature-min: ex. -20
+    temperature-max: ex. 4
+    reefer-hours: Horas do equipamento de refrigeração
+    ownership-type: Selecione o tipo de propriedade
+    financing-status: ex. Quitado, financiado até 2028
+    depreciation-rate: ex. 10
+    date: DD-MM-AAAA
+    notes: Observações internas sobre este reboque
+  help:
+    photo: Envie uma foto deste reboque.
+    name: O nome exibido no Fleet-Ops. Obrigatório.
+    code: Sua própria referência de frota para este reboque.
+    type: O tipo define quais seções se aplicam, por exemplo refrigeração para reboques refrigerados.
+    status: Status do ciclo de vida. Engate e conectividade são acompanhados separadamente.
+    body-type: Descrição livre da carroceria usada para classificação e busca.
+    category: Agrupamento opcional compartilhado com outros recursos da frota.
+    vin: O número de identificação do chassi gravado no reboque.
+    coordinates: Última posição conhecida ou posição base. Dispositivos telemáticos a atualizam automaticamente.
+    measurement-system: Define as unidades usadas para dimensões, pesos, volume e temperaturas.
+    odometer: Leitura do odômetro ou hubodômetro na unidade selecionada.
+    cargo-volume: Volume útil de carga da carroceria.
+    tare-weight: Peso do reboque vazio.
+    gvwr: Peso bruto total, o peso máximo permitido carregado.
+    payload-capacity: Peso máximo de carga que o reboque pode transportar.
+    coupling-type: Como o reboque se engata ao veículo tracionador.
+    abs: Sistema de freios antitravamento instalado.
+    ebs: Sistema de freios eletrônico instalado.
+    refrigerated: Ative para reboques com temperatura controlada para registrar as configurações de refrigeração.
+    temperature: Faixa de temperatura de operação do equipamento de refrigeração.
+    reefer-hours: Horas de funcionamento registradas no equipamento de refrigeração.
+    ownership-type: Como este reboque é mantido. Detalhes de leasing e financiamento aparecem quando aplicável.
+    lease-expires-at: Quando o contrato de leasing, aluguel ou financiamento termina.
+    vendor: Fornecedor ou locador de onde o reboque foi adquirido.
+    warranty: Apólice de garantia que cobre este reboque.
+    acquisition-cost: Preço de compra ou custo capitalizado na moeda selecionada.
+    depreciation-rate: Depreciação anual usada para estimar o valor atual.
+    attach-vehicle: O reboque será engatado ao veículo selecionado. Um reboque só pode estar engatado a um veículo por vez.
+    select-trailer: Apenas reboques desengatados são listados.
+    select-equipment: Apenas equipamentos não conectados são listados.
+    position: Posição de reboque atrás do veículo. A posição 1 fica logo atrás do cavalo mecânico; use 2 ou mais para composições rodoviárias.
+  units:
+    length-metric: m
+    length-imperial: ft
+    weight-metric: kg
+    weight-imperial: lb
+    volume-metric: m³
+    volume-imperial: ft³
+    temperature-metric: °C
+    temperature-imperial: °F
+  actions:
+    new: Novo reboque
+    locate: Localizar no mapa
+    attach-vehicle: Engatar a um veículo
+    detach-vehicle: Desengatar do veículo
+    attach-device: Conectar dispositivo
+    attach-equipment: Conectar equipamento
+    detach-equipment: Desconectar equipamento
+    schedule-maintenance: Agendar manutenção
+    create-work-order: Criar ordem de serviço
+    log-maintenance: Registrar manutenção
+  prompts:
+    attach-vehicle-title: "Engatar {trailerName} a um veículo"
+    select-vehicle-warning: Selecione um veículo para engatar este reboque.
+    attach-vehicle-success: "{trailerName} engatado a {vehicleName}."
+    detach-vehicle-title: "Desengatar {trailerName}?"
+    detach-vehicle-body: "Isso encerra o engate atual entre {trailerName} e {vehicleName}. O engate é mantido no histórico do reboque."
+    detach-vehicle-success: "{trailerName} desengatado de {vehicleName}."
+    not-attached-warning: "{trailerName} não está engatado a nenhum veículo."
+    attach-device-title: "Conectar um dispositivo a {trailerName}"
+    select-device-warning: Selecione um dispositivo para conectar a este reboque.
+    attach-device-success: "Dispositivo conectado a {trailerName}."
+    attach-equipment-title: "Conectar equipamento a {resourceName}"
+    select-equipment-warning: Selecione o equipamento a conectar.
+    attach-equipment-success: "{equipmentName} conectado a {resourceName}."
+    detach-equipment-title: "Desconectar {equipmentName}?"
+    detach-equipment-body: "{equipmentName} deixará de estar conectado a {resourceName}."
+    detach-equipment-success: "{equipmentName} desconectado de {resourceName}."
+    no-location-warning: "{trailerName} ainda não possui localização registrada."
+    photo-upload-error: "Não foi possível enviar a foto: {message}"
+  empty:
+    title: Adicione seu primeiro reboque
+    description: Reboques acompanham engates, dispositivos e equipamentos conectados, telemetria ao vivo e manutenção dos seus ativos rebocados.
+    filtered-title: Nenhum reboque corresponde aos seus filtros
+    filtered-description: Ajuste a busca ou os filtros para encontrar outro reboque.
+    connections: Sem histórico de engates
+    connections-description: Engate este reboque a um veículo para começar a registrar engates.
+    equipment: Nenhum equipamento conectado
+    equipment-description: Conecte equipamentos como plataformas elevatórias, cintas ou unidades de refrigeração a este reboque.
+    schedules: Sem programações de manutenção
+    schedules-description: Crie uma programação para planejar inspeções ou serviços recorrentes deste reboque.
+    work-orders: Sem ordens de serviço
+    work-orders-description: Abra uma ordem de serviço para acompanhar reparos ou serviços deste reboque.
+    maintenance: Sem histórico de manutenção
+    maintenance-description: As manutenções registradas para este reboque aparecerão aqui.
+  docs:
+    title: Guia de reboques
+    link: Abrir o guia de reboques
+  tabs:
+    overview: Visão geral
+    positions: Posições
+    devices: Dispositivos
+    equipment: Equipamentos
+    connections: Histórico de engates
+    schedules: Programações
+    work-orders: Ordens de serviço
+    maintenance: Manutenção
+  columns:
+    name: Nome
+    id: ID
+    code: Código
+    type: Tipo
+    plate-number: Placa
+    status: Status
+    vehicle: Veículo tracionador
+    attachment-state: Engate
+    connectivity: Conectividade
+    last-online: Última conexão
+    location: Localização
+    devices: Dispositivos
+    equipment: Equipamentos
+    vin: Chassi (VIN)
+    serial-number: Número de série
+    make: Fabricante
+    model: Modelo
+    year: Ano
+    vendor: Fornecedor
+    ownership: Propriedade
+    axles: Eixos
+    gvwr: PBT
+    payload-capacity: Capacidade de carga
+    length: Comprimento
+    refrigerated: Refrigerado
+    created-at: Criado em
+    updated-at: Atualizado em
+  filters:
+    created-between: Criado entre
+    updated-between: Atualizado entre
+    last-online-between: Última conexão entre
+  connections:
+    description: Todos os veículos aos quais este reboque foi engatado, do mais recente ao mais antigo.
+    ongoing: Em andamento
+    connected: "Conectado em {date}"
+    disconnected: "Desconectado em {date}"
+    still-attached: Ainda acoplado
+  equipment:
+    description: Equipamentos atualmente conectados a este reboque.
+  telemetry:
+    no-location: Nenhuma localização registrada
+  maintenance:
+    interval: Intervalo
+    next-due: Próximo vencimento
+    code: Código
+    subject: Assunto
+    priority: Prioridade
+    due: Vencimento
+    summary: Resumo
+    odometer: Odômetro
+    total-cost: Custo total
+    date: Data
+  statuses:
+    available: Disponível
+    in_use: Em uso
+    maintenance: Em manutenção
+    out_of_service: Fora de serviço
+    retired: Desativado
+  status-descriptions:
+    available: Pronto para ser despachado ou engatado.
+    in_use: Atualmente em uma tarefa ou engatado a um veículo.
+    maintenance: Em serviço, inspeção ou reparo.
+    out_of_service: Indisponível até segunda ordem.
+    retired: Removido permanentemente do serviço ativo.
+  attachment:
+    attached: Engatado
+    detached: Desengatado
+    no-vehicle: Não engatado a nenhum veículo
+    towed-by: Rebocado por
+    position: "Posição {position}"
+  connectivity:
+    online: Online
+    recently_offline: Recentemente offline
+    offline: Offline
+    never_connected: Nunca conectado
+  measurement:
+    metric: Métrico
+    imperial: Imperial
+  measurement-descriptions:
+    metric: Metros, quilogramas, metros cúbicos e Celsius.
+    imperial: Pés, libras, pés cúbicos e Fahrenheit.
+  odometer-units:
+    km: Quilômetros
+    mi: Milhas
+  coupling-types:
+    fifth_wheel: Quinta roda
+    pintle_hook: Engate tipo gancho
+    ball_hitch: Engate de bola
+    gooseneck: Pescoço de ganso
+    drawbar: Barra de tração
+    other: Outro
+  brake-types:
+    air: Freios a ar
+    electric: Freios elétricos
+    hydraulic_surge: Freios hidráulicos por inércia
+    none: Sem freios
+    other: Outro
+  ownership-types:
+    owned: Próprio
+    leased: Leasing
+    financed: Financiado
+    rented: Alugado
+  types:
+    dry_van: Baú seco
+    reefer: Refrigerado
+    flatbed: Prancha
+    step_deck: Prancha rebaixada
+    lowboy: Prancha baixa
+    tanker: Tanque
+    bulk: Graneleiro
+    dump: Basculante
+    chassis: Chassi porta-contêiner
+    curtain_side: Sider
+    car_carrier: Cegonha
+    livestock: Boiadeiro
+    logging: Florestal
+    dolly: Dolly
+    specialty: Especial
+    other: Outro
