@@ -1,0 +1,9 @@
+{
+  "name": "fleetbase-i18n-tools",
+  "private": true,
+  "description": "Helper scripts for translating Fleetbase templates and finding missing translation keys",
+  "dependencies": {
+    "@babel/parser": "^8.0.7",
+    "ember-template-recast": "^6.1.5"
+  }
+}
