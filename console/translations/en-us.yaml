@@ -968,3 +968,9 @@ smart-nav-menu:
   click-to-unpin: Click to unpin
   reset-to-default: Reset to default
   apply: Apply
+table:
+  empty-state:
+    no-records-found: "No records found"
+    no-records-yet: "No records yet"
+    read-guide: "Read guide"
+    documentation: "Documentation"

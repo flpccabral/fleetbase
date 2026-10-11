@@ -952,3 +952,9 @@ smart-nav-menu:
   click-to-unpin: Clique para desafixar
   reset-to-default: Restaurar padrão
   apply: Aplicar
+table:
+  empty-state:
+    no-records-found: "Nenhum registro encontrado"
+    no-records-yet: "Nenhum registro ainda"
+    read-guide: "Ler o guia"
+    documentation: "Documentação"
