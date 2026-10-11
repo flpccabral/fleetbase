@@ -35,7 +35,7 @@
 	branch = main
 [submodule "packages/registry-bridge"]
 	path = packages/registry-bridge
-	url = git@github.com:fleetbase/registry-bridge.git
+	url = git@github.com:flpccabral/registry-bridge.git
 [submodule "packages/ledger"]
 	path = packages/ledger
 	url = git@github.com:flpccabral/ledger.git
