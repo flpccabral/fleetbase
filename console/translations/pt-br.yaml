@@ -348,6 +348,7 @@ common:
     Continuar irá descartá-las. Clique em Continuar para prosseguir.
   changelog: Registro de Alterações
   reload: Recarregar
+  search-input: "Campo de pesquisa"
 resource:
   alert: Alerta
   alerts: Alertas
