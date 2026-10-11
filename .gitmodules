@@ -3,7 +3,7 @@
 	url = git@github.com:flpccabral/fleetops.git
 [submodule "packages/storefront"]
 	path = packages/storefront
-	url = git@github.com:fleetbase/storefront.git
+	url = git@github.com:flpccabral/storefront.git
 [submodule "packages/pallet"]
 	path = packages/pallet
 	url = git@github.com:fleetbase/pallet.git
