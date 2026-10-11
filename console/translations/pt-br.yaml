@@ -924,10 +924,18 @@ layout:
         settings: Configurações da organização
         create-or-join: Criar ou entrar em organizações
         explore-extensions: Explorar extensões
+        home: "Início"
+        admin: "Administração"
       user:
         view-profile: Ver perfil
         keyboard-shortcuts: Mostrar atalhos de teclado
         changelog: Registro de alterações
+        developers: "Desenvolvedores"
+        discord: "Participar da comunidade no Discord"
+        support: "Ajuda e suporte"
+        documentation: "Documentação"
+        documentation-title: "Documentação da Fleetbase"
+      logout: "Sair"
 smart-nav-menu:
   extension-navigation: Navegação de extensões
   extensions: Extensões
@@ -958,3 +966,5 @@ table:
     no-records-yet: "Nenhum registro ainda"
     read-guide: "Ler o guia"
     documentation: "Documentação"
+docs-panel:
+  documentation: "Documentação"

@@ -940,10 +940,18 @@ layout:
         settings: Organization settings
         create-or-join: Create or join organizations
         explore-extensions: Explore extensions
+        home: "Home"
+        admin: "Admin"
       user:
         view-profile: View profile
         keyboard-shortcuts: Show keyboard shortcuts
         changelog: Changelog
+        developers: "Developers"
+        discord: "Join Discord Community"
+        support: "Help & Support"
+        documentation: "Documentation"
+        documentation-title: "Fleetbase Documentation"
+      logout: "Logout"
 smart-nav-menu:
   extension-navigation: Extension navigation
   extensions: Extensions
@@ -974,3 +982,5 @@ table:
     no-records-yet: "No records yet"
     read-guide: "Read guide"
     documentation: "Documentation"
+docs-panel:
+  documentation: "Documentation"
