@@ -8,9 +8,14 @@ common:
   update: Atualizar
   save: Salvar
   save-changes: Salvar Alterações
+  close-and-save: Fechar e Salvar
   delete: Excluir
   delete-selected: Excluir Selecionados
   delete-selected-count: Excluir {count} Selecionados
+  your-profile: Seu Perfil
+  date-of-birth: Data de Nascimento
+  organization: Organização
+  two-factor: Dois Fatores
   remove: Remover
   cancel: Cancelar
   confirm: Confirmar
@@ -67,8 +72,8 @@ common:
   modal: Modal
   dialog: Diálogo
   menu: Menu
-  dropdown: Dropdown
-  tooltip: Tooltip
+  dropdown: Menu Suspenso
+  tooltip: Dica
   sidebar: Barra Lateral
   toolbar: Barra de Ferramentas
   footer: Rodapé
@@ -76,7 +81,7 @@ common:
   title: Título
   subtitle: Legenda
   description: Descrição
-  placeholder: Placeholder
+  placeholder: Espaço Reservado
   label: Etiqueta
   button: Botão
   icon: Ícone
@@ -103,6 +108,7 @@ common:
   warning: Aviso
   info: Informação
   ready: Pronto
+  activity: Atividade
   active: Ativo
   inactive: Inativo
   enabled: Habilitado
@@ -136,9 +142,11 @@ common:
   forgot-password: Esqueceu a Senha
   reset-password: Redefinir Senha
   change-password: Alterar Senha
+  authentication: Autenticação
   password: Senha
   confirm-password: Confirmar Senha
-  email: Email
+  email: E-mail
+  phone: Telefone
   username: Nome de Usuário
   remember-me: Lembrar-me
   welcome: Bem-vindo
@@ -178,6 +186,7 @@ common:
   notes: Notas
   reference: Referência
   filter-by: Filtrar por
+  filter-by-field: Filtrar por {field}
   sort-by: Ordenar por
   ascending: Ascendente
   descending: Descendente
@@ -218,6 +227,7 @@ common:
   contact: Contato
   documentation: Documentação
   language: Idioma
+  timezone: Fuso Horário
   version: Versão
   theme: Tema
   light-mode: Modo Claro
@@ -286,6 +296,8 @@ common:
   zoom-out: Diminuir Zoom
   fullscreen: Tela Cheia
   exit-fullscreen: Sair da Tela Cheia
+  'yes': Sim
+  'no': Não
   true: 'true'
   false: 'false'
   ok: OK
@@ -308,6 +320,8 @@ common:
   cancel-resource: Cancelar {resource}
   delete-resource: Excluir {resource}
   delete-resource-name: 'Excluir: {resourceName}'
+  resource-actions: Ações de {resource}
+  resource-location: Localização de {resource}
   delete-resource-named: Excluir {resource} ({resourceName})
   delete-resource-prompt: Esta ação não pode ser desfeita. Uma vez excluído, o registro
     será removido permanentemente.
@@ -332,6 +346,8 @@ common:
   continue-without-saving: Continuar sem salvar?
   continue-without-saving-prompt: Você tem alterações não salvas neste {resource}.
     Continuar irá descartá-las. Clique em Continuar para prosseguir.
+  changelog: Registro de Alterações
+  reload: Recarregar
 resource:
   alert: Alerta
   alerts: Alertas
@@ -387,6 +403,7 @@ resource:
   user-devices: Dispositivos do Usuário
   user: Usuário
   users: Usuários
+  country: País
 dropzone:
   file: arquivo
   drop-to-upload: Solte para enviar
@@ -434,6 +451,14 @@ dashboard-widget-panel:
   widget-name: Widget {widgetName}
   select-widgets: Selecionar Widgets
   close-and-save: Fechar e Salvar
+  filter-widgets: Buscar widgets…
+  no-widgets-match: Nenhum widget corresponde aos seus filtros.
+  tab-all: Todos
+  tab-default: Recomendados
+  tab-added: No Painel
+  badge-default: Padrão
+  add: Adicionar
+  add-another: Adicionar outro
 filters-picker:
   filters: Filtros
   filter-data: Filtrar Dados
@@ -497,6 +522,7 @@ component:
     you-cannot-delete-this-dashboard: Você não pode excluir este painel.
     are-you-sure-you-want-delete-dashboard: Tem certeza de que deseja excluir este
       {dashboardName}?
+    create-to-customize-hint: Crie um painel para personalizar os widgets.
   dashboard-widget-panel:
     widget-name: Widget {widgetName}
     select-widgets: Selecionar Widgets
@@ -538,6 +564,16 @@ auth:
         favor, solicite um novo.
       verification-code-failed-notification: Falha na verificação. Por favor, tente
         novamente.
+      too-many-attempts-notification: Muitos códigos incorretos. Faça login novamente.
+      authenticator-title: Abra seu aplicativo autenticador
+      authenticator-subtitle: Digite o código de 6 dígitos que seu aplicativo autenticador
+        mostra para esta conta.
+      recovery-code-title: Digite um código de recuperação
+      recovery-code-subtitle: Use um dos códigos de recuperação que você salvou ao configurar
+        seu aplicativo autenticador. Cada código só pode ser usado uma vez.
+      use-recovery-code: Usar um código de recuperação
+      use-authenticator-code: Usar seu aplicativo autenticador
+      send-code-instead: Enviar um código para mim
     resend-code:
       verification-code-resent-notification: Novo código de verificação enviado.
       verification-code-resent-error-notification: Erro ao reenviar código de verificação.
@@ -627,16 +663,32 @@ auth:
       submit-button: Redefinir senha
       back-button: Voltar
   confirm-email-change:
-    success-message: Your email address has been updated.
-    invalid-verification-code: This email change link is invalid or expired.
-    title: Confirm email change
-    message-text: Confirm this change to update the login email for your Fleetbase account.
+    success-message: Seu endereço de e-mail foi atualizado.
+    invalid-verification-code: Este link de alteração de e-mail é inválido ou expirou.
+    title: Confirmar alteração de e-mail
+    message-text: Confirme esta alteração para atualizar o e-mail de login da sua conta
+      Fleetbase.
     form:
       code:
-        label: Confirmation code
-        help-text: The confirmation code from your email.
-      submit-button: Confirm Email Change
-      back-button: Back
+        label: Código de confirmação
+        help-text: O código de confirmação enviado para o seu e-mail.
+      submit-button: Confirmar Alteração de E-mail
+      back-button: Voltar
+  verify-contact:
+    invalid-link: Este link de verificação é inválido ou expirou.
+    email-title: Verifique seu endereço de e-mail
+    phone-title: Verifique seu número de telefone
+    email-message: Confirme que este endereço de e-mail pertence a você.
+    phone-message: Confirme que este número de telefone pertence a você.
+    email-verified: Seu endereço de e-mail foi verificado.
+    phone-verified: Seu número de telefone foi verificado.
+    continue-button: Continuar
+    form:
+      code:
+        label: Código de verificação
+        help-text: O código de verificação recebido por e-mail ou SMS.
+      submit-button: Verificar
+      back-button: Voltar
 
 console:
   create-or-join-organization:
@@ -661,6 +713,7 @@ console:
       organizations: Organizações
       branding: Personalização
       2fa-config: Configuração 2FA
+      platform-api-token: Token de API da Plataforma
       schedule-monitor: Monitor de agenda
       services: Serviços
       mail: Correio
@@ -701,6 +754,31 @@ console:
         title: Configuração de Serviços
       socket:
         title: Configuração do Socket
+    platform-api-token:
+      title: Token de API da Plataforma
+      description: Gerencie o token de API da plataforma usado por integrações confiáveis
+        para acessar endpoints protegidos da plataforma, como o diretório de organizações.
+      loading: Carregando o status do token de API da plataforma...
+      status: Status
+      configured: Configurado
+      not-configured: Não configurado
+      last-rotated: Última rotação
+      last-used: Último uso
+      never: Nunca
+      generate-token: Gerar Token
+      rotate-token: Rotacionar Token
+      revoke-token: Revogar Token
+      one-time-warning: Copie este token agora. Ele não será exibido novamente.
+      rotate-confirm-title: Rotacionar o token de API da plataforma?
+      rotate-warning: Rotacionar este token invalida imediatamente as integrações que
+        usam o token anterior.
+      revoke-confirm-title: Revogar o token de API da plataforma?
+      revoke-warning: Revogar desativa o acesso por token da plataforma aos endpoints
+        protegidos da plataforma.
+      generated: Token de API da plataforma gerado.
+      rotated: Token de API da plataforma rotacionado.
+      revoked: Token de API da plataforma revogado.
+      copied: Token de API da plataforma copiado para a área de transferência.
     branding:
       title: Identidade Visual
       icon-text: Ícone
@@ -723,7 +801,7 @@ console:
         owner-email-column: Email do Proprietário
         users-count-column: Usuários
         phone-column: Telefone
-        email-column: Email
+        email-column: E-mail
       users:
         title: Usuários
   settings:
@@ -752,6 +830,13 @@ console:
     mark-as-read: Marcar como Lido
     received: 'Recebido:'
     message: Nenhuma notificação para exibir.
+modals:
+  set-password:
+    message: Sua conta foi criada a partir de um convite e ainda não tem senha. Defina
+      uma agora para concluir a proteção da sua conta.
+    new-password: Nova Senha
+    confirm-password: Confirmar Senha
+    help-text: Digite uma senha com pelo menos 6 caracteres para continuar.
 invite:
   for-users:
     invitation-message: Você foi convidado para se juntar à {companyName}
@@ -797,11 +882,13 @@ onboard:
       resend-email: Reenviar E-mail
       send-by-sms: Enviar por SMS
 install:
-  not-configured-title: Fleetbase is not installed or configured
-  not-configured-message: Complete setup from the Fleetbase CLI or application container, then reload this page once the database, migrations, and seed data are ready.
-  running-locally-docs: See running locally docs
-  cloud-docs: See cloud deployment docs
-  refreshing: Installation complete, refreshing...
+  not-configured-title: O Fleetbase não está instalado ou configurado
+  not-configured-message: Conclua a configuração pela CLI do Fleetbase ou pelo contêiner
+    da aplicação e recarregue esta página quando o banco de dados, as migrações e os
+    dados iniciais estiverem prontos.
+  running-locally-docs: Ver documentação para rodar localmente
+  cloud-docs: Ver documentação de implantação na nuvem
+  refreshing: Instalação concluída, atualizando...
 layout:
   header:
     menus:
