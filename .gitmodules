@@ -44,4 +44,4 @@
 	url = git@github.com:fleetbase/customer-portal.git
 [submodule "packages/ai"]
 	path = packages/ai
-	url = git@github.com:fleetbase/ai.git
+	url = git@github.com:flpccabral/ai.git
