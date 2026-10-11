@@ -728,6 +728,31 @@ console:
       timezone: Select your timezone.
 
   admin:
+    navigation:
+      overview-description: Review admin dashboard metrics and platform health.
+      organizations-description: Manage organizations, users, extensions, activity, and settings.
+      branding-description: Configure console branding, logos, colors, and theme defaults.
+      platform-api-token-description: Manage the platform API token used by trusted platform integrations.
+      schedule-monitor-description: Review scheduled tasks and their recent execution logs.
+      api-traffic: API Traffic
+      api-traffic-description: Monitor API consumers and configure rate limiting.
+      api-consumers: API Consumers
+      api-consumers-description: See which API keys, users and addresses drive traffic or are being throttled.
+      rate-limits: Rate Limits
+      rate-limits-description: Configure API rate limits and per-organization overrides.
+      auth-config: Auth Config
+      auth-config-description: 'Configure how people sign in: OAuth providers and two-factor authentication.'
+      oauth-description: Configure sign-in with Google, Microsoft, GitHub and Apple.
+      two-fa-description: Configure administrator two-factor authentication policy.
+      system-config: System Config
+      system-config-description: Configure core platform services, mail, storage, queues, sockets, and notifications.
+      services-description: Configure platform service providers.
+      mail-description: Configure mail delivery.
+      filesystem-description: Configure file storage.
+      queue-description: Configure background queue workers.
+      socket-description: Configure realtime socket settings.
+      push-notifications-description: Configure notification channels.
+      panel-description: '{title} admin controls.'
     menu:
       overview: Overview
       organizations: Organizations

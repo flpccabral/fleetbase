@@ -710,6 +710,31 @@ console:
       photos: fotos
       timezone: Selecione seu fuso horário.
   admin:
+    navigation:
+      overview-description: Revise as métricas do painel de administração e a saúde da plataforma.
+      organizations-description: Gerencie organizações, usuários, extensões, atividades e configurações.
+      branding-description: 'Configure a identidade visual do console: logotipos, cores e tema padrão.'
+      platform-api-token-description: Gerencie o token de API da plataforma usado por integrações confiáveis.
+      schedule-monitor-description: Revise as tarefas agendadas e os registros de execução recentes.
+      api-traffic: Tráfego da API
+      api-traffic-description: Monitore os consumidores da API e configure os limites de requisições.
+      api-consumers: Consumidores da API
+      api-consumers-description: Veja quais chaves de API, usuários e endereços geram tráfego ou estão sendo limitados.
+      rate-limits: Limites de Requisições
+      rate-limits-description: Configure os limites de requisições da API e as exceções por organização.
+      auth-config: Configuração de Autenticação
+      auth-config-description: 'Configure como as pessoas entram: provedores OAuth e autenticação em duas etapas.'
+      oauth-description: Configure o login com Google, Microsoft, GitHub e Apple.
+      two-fa-description: Configure a política de autenticação em duas etapas dos administradores.
+      system-config: Configuração do Sistema
+      system-config-description: 'Configure os serviços principais da plataforma: e-mail, armazenamento, filas, sockets e notificações.'
+      services-description: Configure os provedores de serviços da plataforma.
+      mail-description: Configure o envio de e-mails.
+      filesystem-description: Configure o armazenamento de arquivos.
+      queue-description: Configure os workers das filas em segundo plano.
+      socket-description: Configure os sockets em tempo real.
+      push-notifications-description: Configure os canais de notificação.
+      panel-description: Controles de administração de {title}.
     menu:
       overview: Visão geral
       organizations: Organizações

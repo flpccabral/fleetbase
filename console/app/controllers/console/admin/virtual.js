@@ -1,5 +1,7 @@
 import Controller from '@ember/controller';
 import { tracked } from '@glimmer/tracking';
+import { inject as service } from '@ember/service';
+import translateRegisteredLabel from '@fleetbase/console/utils/translate-registered-label';
 
 /**
  * Renders an admin panel item registered by an extension. By default the item sits in a narrow
@@ -11,8 +13,14 @@ export default class ConsoleAdminVirtualController extends Controller {
     static DEFAULT_WRAPPER_CLASS = 'max-w-3xl my-10 mx-auto';
     static FULL_BLEED_WRAPPER_CLASS = 'flex flex-col flex-1 min-h-0 min-w-0';
 
+    @service intl;
     @tracked view;
     queryParams = ['view'];
+
+    /** The item's title, which extensions may register as a translation key. */
+    get title() {
+        return translateRegisteredLabel(this.intl, this.model?.title);
+    }
 
     get isFullBleed() {
         return this.model?.overwriteWrapperClass === true;
