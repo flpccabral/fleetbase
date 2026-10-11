@@ -472,6 +472,8 @@ dashboard-widget-panel:
   badge-default: Default
   add: Add
   add-another: Add another
+  added: Added
+  added-count: Added ×{count}
 
 filters-picker:
   filters: Filters
@@ -916,3 +918,27 @@ layout:
         view-profile: View profile
         keyboard-shortcuts: Show keyboard shortcuts
         changelog: Changelog
+smart-nav-menu:
+  extension-navigation: Extension navigation
+  extensions: Extensions
+  more-extensions: More extensions
+  all-extensions: All extensions
+  extension-list: Extension list
+  search-extensions: Search extensions
+  search-extensions-placeholder: Search extensions...
+  clear-search: Clear search
+  no-extensions-match: No extensions match
+  from-parent: from {parent}
+  pin-to-bar: Pin to navigation bar
+  pin-item-to-bar: Pin {title} to navigation bar
+  customise-navigation: Customise navigation
+  customise-navigation-title: Customise Navigation
+  pinned-to-bar: Pinned to bar
+  drag-to-reorder: Drag to reorder
+  remove-from-bar: Remove from bar
+  no-extensions-pinned: No extensions pinned yet.
+  add-extensions-hint: Add extensions from the list on the right.
+  click-to-pin: Click to pin to bar
+  click-to-unpin: Click to unpin
+  reset-to-default: Reset to default
+  apply: Apply

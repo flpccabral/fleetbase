@@ -459,6 +459,8 @@ dashboard-widget-panel:
   badge-default: Padrão
   add: Adicionar
   add-another: Adicionar outro
+  added: Adicionado
+  added-count: Adicionado ×{count}
 filters-picker:
   filters: Filtros
   filter-data: Filtrar Dados
@@ -900,3 +902,27 @@ layout:
         view-profile: Ver perfil
         keyboard-shortcuts: Mostrar atalhos de teclado
         changelog: Registro de alterações
+smart-nav-menu:
+  extension-navigation: Navegação de extensões
+  extensions: Extensões
+  more-extensions: Mais extensões
+  all-extensions: Todas as extensões
+  extension-list: Lista de extensões
+  search-extensions: Buscar extensões
+  search-extensions-placeholder: Buscar extensões...
+  clear-search: Limpar busca
+  no-extensions-match: Nenhuma extensão corresponde a
+  from-parent: de {parent}
+  pin-to-bar: Fixar na barra de navegação
+  pin-item-to-bar: Fixar {title} na barra de navegação
+  customise-navigation: Personalizar navegação
+  customise-navigation-title: Personalizar Navegação
+  pinned-to-bar: Fixadas na barra
+  drag-to-reorder: Arraste para reordenar
+  remove-from-bar: Remover da barra
+  no-extensions-pinned: Nenhuma extensão fixada ainda.
+  add-extensions-hint: Adicione extensões a partir da lista à direita.
+  click-to-pin: Clique para fixar na barra
+  click-to-unpin: Clique para desafixar
+  reset-to-default: Restaurar padrão
+  apply: Aplicar
